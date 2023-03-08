@@ -1,0 +1,30 @@
+{
+  "name": "shared-project-tools",
+  "version": "0.0.0",
+  "description": "Shared project tools config.",
+  "license": "UNLICENSED",
+  "author": "DJBlackEagle <122323412+DJBlackEagle@users.noreply.github.com>",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJBlackEagle/shared-project-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DJBlackEagle/shared-project-tools/issues"
+  },
+  "homepage": "https://github.com/DJBlackEagle/shared-project-tools#readme",
+  "engines": {
+    "npm": ">= 9.6.1",
+    "yarn": "please-use-npm",
+    "node": ">=18.15.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
