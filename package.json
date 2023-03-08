@@ -25,7 +25,8 @@
   "scripts": {
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz"
+    "commit": "cz",
+    "commit:push": "cz && git push"
   },
   "config": {
     "commitizen": {
