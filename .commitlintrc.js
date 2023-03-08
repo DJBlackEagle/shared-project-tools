@@ -1,1 +1,3 @@
-module.exports = { extends: ["@commitlint/config-conventional"] };
+const config = require('./config');
+
+module.exports = config.commitlint.base;
