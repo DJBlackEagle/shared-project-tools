@@ -1,0 +1,8 @@
+**/.git/
+**/node_modules/
+**/.yarn/
+.husky/
+**/dist/*
+**/build/*
+yarn.lock
+package-lock.json

@@ -1,5 +1,5 @@
-const commitlint = require("./commitlint");
-const prettier = require("./prettier");
+const commitlint = require('./commitlint');
+const prettier = require('./prettier');
 
 module.exports = {
   commitlint,
