@@ -31,6 +31,9 @@
     "prettier:fix": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
+    "ncu": "ncu",
+    "ncu:doctor": "ncu --doctor",
+    "ncu:interactive": "ncu --interactive --format group",
     "rel": "dotenv -- release-it",
     "rel:beta": "dotenv -- release-it --preRelease=beta",
     "rel:dev": "dotenv -- release-it --preRelease=dev",
@@ -64,6 +67,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "nano-staged": "^0.8.0",
+    "npm-check-updates": "^16.7.10",
     "prettier": "^2.8.4",
     "release-it": "^15.7.0"
   }
