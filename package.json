@@ -45,6 +45,14 @@
     "repo:prepare:husky": "npx husky install",
     "repo:prepare:env": "cp -i .env.example .env || copy /-Y .env.example .env"
   },
+  "files": [
+    "./config/**",
+    "./CHANGELOG.md",
+    "./index.js",
+    "./LICENSE",
+    "./README.md",
+    "./package.json"
+  ],
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
