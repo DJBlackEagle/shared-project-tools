@@ -30,7 +30,17 @@
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "rel": "dotenv -- release-it",
+    "rel:beta": "dotenv -- release-it --preRelease=beta",
+    "rel:dev": "dotenv -- release-it --preRelease=dev",
+    "rel:ci": "dotenv -- release-it --ci",
+    "rel:ci:beta": "dotenv -- release-it --preRelease=beta --ci",
+    "rel:ci:dev": "dotenv -- release-it --preRelease=dev --ci",
+    "repo:prepare": "npm run repo:prepare:pkgs && npm run repo:prepare:husky && npm run repo:prepare:env",
+    "repo:prepare:pkgs": "npm install",
+    "repo:prepare:husky": "npx husky install",
+    "repo:prepare:env": "cp -i .env.example .env || copy /-Y .env.example .env"
   },
   "config": {
     "commitizen": {
@@ -44,6 +54,7 @@
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "commitizen": "^4.3.0",
+    "dotenv-cli": "^7.0.0",
     "eslint": "^8.35.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -53,6 +64,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "nano-staged": "^0.8.0",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "release-it": "^15.7.0"
   }
 }
