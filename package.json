@@ -23,7 +23,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "cz",
     "commit:push": "cz && git push",
