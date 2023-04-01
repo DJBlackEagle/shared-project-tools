@@ -18,3 +18,4 @@ updates:
     labels:
       - 'npm'
       - 'dependencies'
+    versioning-strategy: increase
