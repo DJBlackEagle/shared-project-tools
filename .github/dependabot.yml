@@ -14,4 +14,4 @@ updates:
       - 'djblackeagle'
     commit-message:
       prefix: 'chore(deps)'
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 20
