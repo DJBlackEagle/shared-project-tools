@@ -5,11 +5,27 @@
 
 version: 2
 updates:
-  - package-ecosystem: 'npm' # See documentation for possible values
-    directory: '/' # Location of package manifests
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: github-actions
+    directory: '/'
     schedule:
-      interval: 'monthly'
       timezone: 'Europe/Berlin'
+      interval: 'monthly'
+    assignees:
+      - 'djblackeagle'
+    commit-message:
+      prefix: 'chore(github)'
+    open-pull-requests-limit: 5
+    labels:
+      - 'github'
+      - 'dependencies'
+
+  # Maintain dependencies for npm
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      timezone: 'Europe/Berlin'
+      interval: 'monthly'
     assignees:
       - 'djblackeagle'
     commit-message:
