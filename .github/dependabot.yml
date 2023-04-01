@@ -15,3 +15,6 @@ updates:
     commit-message:
       prefix: 'chore(deps)'
     open-pull-requests-limit: 20
+    labels:
+      - 'npm'
+      - 'dependencies'
