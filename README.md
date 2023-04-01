@@ -4,6 +4,7 @@
 
 - [What is @djblackeagle/shared-project-tools](#what-is-djblackeagleshared-project-tools)
 - [Benefits using this package?](#benefits-using-this-package)
+- [How to clone this repository](#how-to-clone-this-repository)
 - [Getting started](#getting-started)
   - [Using ESLint config](#using-eslint-config)
   - [Using Prettier config](#using-prettier-config)
@@ -20,6 +21,19 @@
 # Benefits using this package?
 
 Easier code styling etc over multiple repositories. And it's esier, to update rules for code styles.
+
+[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+
+# How to clone this repository
+
+1. Clone this repository with `git clone` command.
+2. Execute the following command:
+
+```sh
+npm run repo:prepare
+```
+
+3. This command will prepare the repository automatically. It's install all needed dependencies and all other things.
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
 
