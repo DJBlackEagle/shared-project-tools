@@ -11,6 +11,7 @@
   - [Using release-it config](#using-release-it-config)
   - [Using commitlint config](#using-commitlint-config)
   - [Using nano-staged config](#using-nano-staged-config)
+  - [Using lint-staged config](#using-lint-staged-config)
 
 # What is @djblackeagle/shared-project-tools
 
@@ -321,6 +322,57 @@ module.exports = {
 
 ```sh
 npx husky add .husky/pre-commit "npx nano-staged"
+```
+
+[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+
+## Using lint-staged config
+
+### Requirements
+
+- husky - How to install, look in the [documentation of husky](https://typicode.github.io/husky/).
+
+### Installing
+
+1. Install `lint-staged` and other dependencies in your package as devDependencies.
+
+npm
+
+```sh
+npm install --save-dev lint-staged
+```
+
+Yarn
+
+```sh
+yarn add -dev lint-staged
+```
+
+2. Create file `.lintstagedrc.js` in the root folder.
+3. You can choose, which style of config you want. Here the base config.
+
+```js
+const config = require('@djblackeagle/shared-project-tools');
+
+module.exports = config.lintStaged.base;
+```
+
+4. Save file.
+5. If you want change some options, you can do like this:
+
+```js
+const config = require('@djblackeagle/shared-project-tools');
+
+module.exports = {
+  ...config.lintStaged.base,
+  '*.{xml}': (api) => `validate-xml.sh ${api.filenames.join(' ')}`,
+};
+```
+
+6. Add Git hook `pre-commit`
+
+```sh
+npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
