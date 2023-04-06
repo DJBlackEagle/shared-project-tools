@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/1.0.0...1.1.0) (2023-04-06)
+
+### Features
+
+- **lint-staged:** add lint-staged base config ([d489293](https://github.com/DJBlackEagle/shared-project-tools/commit/d4892939d9d25c0943099aa1db71a8dc18936b6f)), closes [#88](https://github.com/DJBlackEagle/shared-project-tools/issues/88)
+
+### Documentation
+
+- **lint-staged:** add usage information of lint-staged base config ([aae30ad](https://github.com/DJBlackEagle/shared-project-tools/commit/aae30ade204036cc569706c9ae265ac230b3100e)), closes [#90](https://github.com/DJBlackEagle/shared-project-tools/issues/90)
+- **project:** add information, how to use this project repository ([36eda98](https://github.com/DJBlackEagle/shared-project-tools/commit/36eda98947e6e851dc9eac50218b8226357e5f4a)), closes [#84](https://github.com/DJBlackEagle/shared-project-tools/issues/84)
+
 ## 1.0.0 (2023-03-19)
 
 ### Features
