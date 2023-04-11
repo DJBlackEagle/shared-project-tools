@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.1...1.1.2) (2023-04-11)
+
+### Documentation
+
+- **project:** fix yarn commands in readme ([da297f0](https://github.com/DJBlackEagle/shared-project-tools/commit/da297f0c6ba656fcf7ac7b68bac5264e31e2a636)), closes [#108](https://github.com/DJBlackEagle/shared-project-tools/issues/108)
+
 ## [1.1.1](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.0...1.1.1) (2023-04-11)
 
 ## [1.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/1.0.0...1.1.0) (2023-04-06)
