@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.1](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.0...1.1.1) (2023-04-11)
+
 ## [1.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/1.0.0...1.1.0) (2023-04-06)
 
 ### Features
