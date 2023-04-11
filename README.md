@@ -51,7 +51,7 @@ npm install --save-dev @djblackeagle/shared-project-tools
 Yarn
 
 ```sh
-yarn add -dev @djblackeagle/shared-project-tools
+yarn add -D @djblackeagle/shared-project-tools
 ```
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
@@ -75,7 +75,7 @@ npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslin
 Yarn
 
 ```sh
-yarn add -dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier prettier
+yarn add -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier prettier
 ```
 
 2. Create file `.eslintrc.js` in the root folder.
@@ -133,7 +133,7 @@ npm install --save-dev prettier
 Yarn
 
 ```sh
-yarn add -dev prettier
+yarn add -D prettier
 ```
 
 2. Create file `.prettierrc.js` in the root folder.
@@ -192,7 +192,7 @@ npm install --save-dev release-it @release-it/conventional-changelog
 Yarn
 
 ```sh
-yarn add -dev release-it @release-it/conventional-changelog
+yarn add -D release-it @release-it/conventional-changelog
 ```
 
 2. Create file `.release-it.js` in the root folder.
@@ -240,7 +240,7 @@ npm install --save-dev @commitlint/cli @commitlint/config-conventional
 Yarn
 
 ```sh
-yarn add -dev @commitlint/cli @commitlint/config-conventional
+yarn add -D @commitlint/cli @commitlint/config-conventional
 ```
 
 2. Create file `.commitlintrc.js` in the root folder.
@@ -294,7 +294,7 @@ npm install --save-dev nano-staged
 Yarn
 
 ```sh
-yarn add -dev nano-staged
+yarn add -D nano-staged
 ```
 
 2. Create file `.nano-staged.js` in the root folder.
@@ -345,7 +345,7 @@ npm install --save-dev lint-staged
 Yarn
 
 ```sh
-yarn add -dev lint-staged
+yarn add -D lint-staged
 ```
 
 2. Create file `.lintstagedrc.js` in the root folder.
