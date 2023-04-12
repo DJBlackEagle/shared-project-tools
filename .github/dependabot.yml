@@ -17,7 +17,6 @@ updates:
       prefix: 'chore(github)'
     open-pull-requests-limit: 5
     labels:
-      - 'github'
       - 'dependencies'
 
   # Maintain dependencies for npm
@@ -32,6 +31,5 @@ updates:
       prefix: 'chore(deps)'
     open-pull-requests-limit: 20
     labels:
-      - 'npm'
       - 'dependencies'
     versioning-strategy: increase
