@@ -17,7 +17,6 @@ updates:
       prefix: 'chore(github)'
     open-pull-requests-limit: 5
     labels:
-      - 'github'
       - 'dependencies'
 
   # Maintain dependencies for npm
