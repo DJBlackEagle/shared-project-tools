@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.4](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.3...1.1.4) (2023-04-13)
+
+### Documentation
+
+- **readme:** change yarn command parameter, to long form parameter ([2f092e5](https://github.com/DJBlackEagle/shared-project-tools/commit/2f092e5790640f784422d65dba143c0ab03a4c2c)), closes [#115](https://github.com/DJBlackEagle/shared-project-tools/issues/115)
+
 ## [1.1.3](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.2...1.1.3) (2023-04-12)
 
 ## [1.1.2](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.1...1.1.2) (2023-04-11)
