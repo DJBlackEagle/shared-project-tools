@@ -50,4 +50,5 @@ module.exports = {
     ],
     'prettier/prettier': ['error', prettierConfig.base],
   },
+  ignorePatterns: ['**/node_modules/**/*', '**/dist/*', '**/build/*'],
 };
