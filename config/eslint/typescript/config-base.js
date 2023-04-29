@@ -12,11 +12,8 @@ module.exports = {
   extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    requireConfigFile: false,
     tsconfigRootDir: __dirname,
     extends: './tsconfig.eslint.json',
-    exclude: ['node_modules', 'yarn.lock', '.yarn/*'],
-    include: ['*.ts', '*.js'],
     project: ['./tsconfig.eslint.json'],
   },
   settings: {
