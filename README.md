@@ -87,14 +87,26 @@ const config = require('@djblackeagle/shared-project-tools');
 module.exports = {
   ...config.eslint.typescript.base,
   parserOptions: {
-    ...config.eslint.typescript.base.parserOptions,
     tsconfigRootDir: __dirname,
+    extends: './tsconfig.eslint.json',
+    project: ['./tsconfig.eslint.json'],
   },
 };
 ```
 
 4. Save file.
-5. If you want change some options, you can do like this:
+5. Create file `tsconfig.eslint.json` in the root folder.
+
+```json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": true },
+  "exclude": [".yarn/*", "yarn.lock", "package-lock.json", "node_modules"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", ".*.js"]
+}
+```
+
+6. If you want change some options, you can do like this:
 
 ```js
 const config = require('@djblackeagle/shared-project-tools');
@@ -106,8 +118,9 @@ module.exports = {
     node: false,
   },
   parserOptions: {
-    ...config.eslint.typescript.base.parserOptions,
     tsconfigRootDir: __dirname,
+    extends: './tsconfig.eslint.json',
+    project: ['./tsconfig.eslint.json'],
   },
 };
 ```
@@ -158,7 +171,7 @@ module.exports = {
 ```
 
 6. Create file `.prettierignore` in the root folder.
-7. You can use this to ignore for prettier.
+7. You can use this ignore pattern to ignore file for prettier.
 
 ```
 **/.git/
