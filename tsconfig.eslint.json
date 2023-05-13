@@ -1,4 +1,5 @@
 {
+  "compilerOptions": { "noEmit": true },
   "exclude": [".yarn/*", "yarn.lock", "package-lock.json", "node_modules"],
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", ".*.js"]
 }
