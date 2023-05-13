@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.5...2.0.0) (2023-05-13)
+
+### ⚠ BREAKING CHANGES
+
+- **eslint:** The parserOptions must not defined in the project eslint config.
+- **ESLint:** Removed requireConfigFile, include, exclude on ESLint base config at the
+  parserOptions.
+
+### Features
+
+- **commitlint:** increase the header message to 100 and body message to 150 ([3b7a760](https://github.com/DJBlackEagle/shared-project-tools/commit/3b7a760ac458a829a955463b3dca57dea5f3a158)), closes [#156](https://github.com/DJBlackEagle/shared-project-tools/issues/156)
+- **eslint:** add global ignorePatterns to eslint base config ([12d0ba9](https://github.com/DJBlackEagle/shared-project-tools/commit/12d0ba95d99bc34912fa1c8c4d0462f2feb2b8fb)), closes [#134](https://github.com/DJBlackEagle/shared-project-tools/issues/134)
+- **eslint:** remove parserOptions from typescript base config ([573edd4](https://github.com/DJBlackEagle/shared-project-tools/commit/573edd4272f3adf00f37ad2e5f81d98f90f06e41)), closes [#140](https://github.com/DJBlackEagle/shared-project-tools/issues/140)
+
+### Bug Fixes
+
+- **ESLint:** remove requireConfigFile, include, exclude on base config ([1dfbb50](https://github.com/DJBlackEagle/shared-project-tools/commit/1dfbb501e6cd0dedf5622856279ebac2526b6112)), closes [#135](https://github.com/DJBlackEagle/shared-project-tools/issues/135)
+
+### Documentation
+
+- **project:** add missing config docu for eslint config ([8fd81a4](https://github.com/DJBlackEagle/shared-project-tools/commit/8fd81a40a1ded7fc940d94c10715f263a352a2e1)), closes [#141](https://github.com/DJBlackEagle/shared-project-tools/issues/141)
+
 ## [1.1.5](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.4...1.1.5) (2023-04-23)
 
 ## [1.1.4](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.3...1.1.4) (2023-04-13)
