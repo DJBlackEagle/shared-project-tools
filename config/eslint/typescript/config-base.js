@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   rules: {
-    'no-console': ['error', { allow: ['log'] }],
+    'no-console': ['error'],
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/explicit-function-return-type': [
       'error',
