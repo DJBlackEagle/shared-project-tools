@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/2.0.0...2.1.0) (2023-05-13)
+
+### Features
+
+- **ESLint:** forbid to use console commands ([dba6c2a](https://github.com/DJBlackEagle/shared-project-tools/commit/dba6c2a3fc3c7e9bd580ef8087d1577f22162c16)), closes [#166](https://github.com/DJBlackEagle/shared-project-tools/issues/166)
+
 ## [2.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/1.1.5...2.0.0) (2023-05-13)
 
 ### ⚠ BREAKING CHANGES
