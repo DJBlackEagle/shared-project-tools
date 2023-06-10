@@ -2,5 +2,8 @@
   "files.eol": "\n",
   "files.encoding": "utf8",
   "editor.formatOnSave": true,
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-issue-config.json": "./.github/ISSUE_TEMPLATE/config.yml"
+  }
 }
