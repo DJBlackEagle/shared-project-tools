@@ -1,0 +1,46 @@
+name: Pull-Request Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  code_format_check:
+    name: Checking code format style
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Install dependencies 🔧
+        run: npm ci
+      - name: Run Prettier 📃
+        run: npm run prettier
+
+  code_check:
+    name: Linting the source code
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Install dependencies 🔧
+        run: npm ci
+      - name: Run ESLint 📝
+        run: npm run prettier
