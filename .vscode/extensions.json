@@ -2,8 +2,10 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "mhutchie.git-graph",
-    "oderwat.indent-rainbow",
-    "gruntfuggly.todo-tree"
+    "crystal-spider.jsdoc-generator",
+    "mikestead.dotenv",
+    "eamodio.gitlens",
+    "crystal-spider.jsdoc-generator",
+    "Gruntfuggly.todo-tree"
   ]
 }

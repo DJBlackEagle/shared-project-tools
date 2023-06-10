@@ -27,7 +27,7 @@
     "prettier:fix": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "git:issue_finish": "echo \"Finish issue.\" && npm run git:add && npm run git:status && npm run git:commit && npm run git:push",
+    "git:finish": "echo \"Finish issue.\" && npm run git:add && npm run git:status && npm run git:commit && npm run git:push",
     "git:add": "echo \"Stage all files.\" && git add .",
     "git:status": "echo \"Show status of the files.\" && git status",
     "git:commit": "echo \"Commit staged files.\" && cz",
