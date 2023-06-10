@@ -1,0 +1,125 @@
+name: "\U0001F41B Bug Report"
+description: "If something isn't working as expected \U0001F914"
+assignees:
+  - DJBlackEagle
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## :warning: We use GitHub Issues to track bug reports, feature requests and regressions
+
+        ---
+
+  - type: checkboxes
+    attributes:
+      label: 'Is there an existing issue for this?'
+      description: 'Please search [here](./?q=is%3Aissue) to see if an issue already exists for the bug you encountered'
+      options:
+        - label: 'I have searched the existing issues'
+          required: true
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: 'Current behavior'
+      description: 'How the issue manifests?'
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: 'Minimum reproduction code'
+      description: 'An URL to some git repository or gist that reproduces this issue. [Wtf is a minimum reproduction?](https://jmcdo29.github.io/wtf-is-a-minimum-reproduction)'
+      placeholder: 'https://github.com/...'
+
+  - type: textarea
+    attributes:
+      label: 'Steps to reproduce'
+      description: |
+        How the issue manifests?
+        You could leave this blank if you alread write this in your reproduction code/repo
+      placeholder: |
+        1. `npm i`
+        2. `npm start:dev`
+        3. See error...
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: 'Expected behavior'
+      description: 'A clear and concise description of what you expected to happend (or code)'
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: 'Dependencies of your project'
+      description: 'Your dependencies in your package.json'
+      placeholder: |
+        "@inquirer/prompts": "^1.2.2",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.14.0",
+        "commander": "^10.0.1",
+        "reflect-metadata": "^0.1.13"
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: 'Dev dependencies of your project'
+      description: 'Your dev dependencies in your package.json'
+      placeholder: |
+        "@djblackeagle/shared-project-tools": "^2.1.1",
+        "@types/node": "^20.1.7",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: 'Package version'
+      description: |
+        Which version of `@djblackeagle/shared-project-tools` are you using?
+        **Tip**: Make sure that all of yours `@djblackeagle/*` dependencies are in sync!
+      placeholder: '2.1.1'
+
+  - type: input
+    attributes:
+      label: 'Node.js version'
+      description: 'Which version of Node.js are you using?'
+      placeholder: '18.15.0'
+
+  - type: checkboxes
+    attributes:
+      label: 'In which operating systems have you tested?'
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+  - type: textarea
+    attributes:
+      label: 'Other'
+      description: |
+        Anything else relevant? eg: Logs, OS version, IDE, package manager, etc.
+        **Tip:** You can attach images, recordings or log files by clicking this area to highlight it and then dragging files in
