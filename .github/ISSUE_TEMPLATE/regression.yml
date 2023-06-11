@@ -1,4 +1,4 @@
-name: "💥 Regression"
+name: '💥 Regression'
 description: 'Report an unexpected behavior while upgrading your applications dependencies!'
 assignees:
   - DJBlackEagle
