@@ -77,7 +77,6 @@ body:
       label: 'Dev dependencies of your project'
       description: 'Your dev dependencies in your package.json'
       placeholder: |
-        "@djblackeagle/shared-project-tools": "^2.1.1",
         "@types/node": "^20.1.7",
         "nodemon": "^2.0.22",
         "ts-node": "^10.9.1",
