@@ -73,11 +73,15 @@
   color: 5319e7
   description: 'A todo issue.'
 - name: 'repository'
-  color: 799AB0
+  color: 799ab0
   description: 'Have affect of the repository.'
 - name: 'needs triage'
   color: 1d76db
   description: 'We need to talk.'
+
+- name: 'release'
+  color: 0e8a16
+  description: 'Release of the package.'
 
 - name: 'dependabot'
   color: 8a91ad
