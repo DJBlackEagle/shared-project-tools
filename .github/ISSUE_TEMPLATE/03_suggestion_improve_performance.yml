@@ -1,6 +1,6 @@
 name: '🔥 Suggestion for Improving Performance'
 description: 'I have a suggestion that might improve the performance ✨'
-labels: ['enhancement', 'needs triage']
+labels: ['enhancement', 'needs triage', 'performance']
 body:
   - type: checkboxes
     attributes:
