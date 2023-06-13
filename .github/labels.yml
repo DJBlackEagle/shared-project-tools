@@ -69,6 +69,10 @@
   color: e4ea8a
   description: 'Nice addition, maybe... someday...'
 
+- name: 'todo'
+  color: 5319e7
+  description: 'A todo issue.'
+
 - name: 'dependabot'
   color: 8a91ad
   description: 'Created by the dependabot.'
