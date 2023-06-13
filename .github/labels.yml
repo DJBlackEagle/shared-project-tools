@@ -72,6 +72,12 @@
 - name: 'todo'
   color: 5319e7
   description: 'A todo issue.'
+- name: 'repository'
+  color: 799AB0
+  description: 'Have affect of the repository.'
+- name: 'needs triage'
+  color: 1d76db
+  description: 'We need to talk.'
 
 - name: 'dependabot'
   color: 8a91ad
