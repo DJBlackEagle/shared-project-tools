@@ -389,3 +389,20 @@ npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+
+[coc]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/CODE_OF_CONDUCT.md
+[readme]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/README.md
+[changelog]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/CHANGELOG.md
+[contributing]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/CONTRIBUTING.md
+[license]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/LICENSE
+[commit-message-format]: https://www.conventionalcommits.org
+[github]: https://github.com/DJBlackEagle/shared-project-tools
+[js-style-guide]: https://github.com/airbnb/javascript
+[new_issue]: https://github.com/DJBlackEagle/shared-project-tools/issues
+[gh_prs]: https://github.com/DJBlackEagle/shared-project-tools/pulls
+[commits_samples]: https://github.com/DJBlackEagle/shared-project-tools/commits/main
+[nodejs]: https://nodejs.org
+[npm_husky]: https://typicode.github.io/husky
+[npm_eslint]: https://eslint.org
+[npm_prettier]: https://prettier.io/
+[new_vulnerability]: https://github.com/DJBlackEagle/shared-project-tools/security/advisories/new

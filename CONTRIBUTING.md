@@ -1,4 +1,4 @@
-# <a name="jump_top"></a> Contributing to @djblackeagle/shared-project-tools
+# Contributing to @djblackeagle/shared-project-tools
 
 As a contributor, here are the guidelines we would like you to follow: :smile:
 
@@ -13,17 +13,17 @@ As a contributor, here are the guidelines we would like you to follow: :smile:
 <br />
 <br />
 
-## <a name="jump_coc"></a> Code of Conduct [⬆️](#jump_top)
+## <a name="jump_coc"></a> Code of Conduct [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 Help us keep open and inclusive. Please read and follow our [Code of Conduct][coc].
 
-## <a name="jump_issue"></a> Found a Bug? [⬆️](#jump_top)
+## <a name="jump_issue"></a> Found a Bug? [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 If you find a bug in the source code, you can help us by
 [submitting an issue](#submit-issue) to our [GitHub Repository][github]. Even better, you can
 [submit a Pull Request](#submit-pr) with a fix.
 
-## <a name="jump_feature"></a> Missing a Feature? [⬆️](#jump_top)
+## <a name="jump_feature"></a> Missing a Feature? [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 You can _request_ a new feature by [submitting an issue](#submit-issue) to our GitHub
 Repository. If you would like to _implement_ a new feature, please submit an issue with
@@ -35,9 +35,9 @@ Please consider what kind of change it is:
   and help you to craft the change so that it is successfully accepted into the project. For your issue name, please prefix your proposal with `[discussion]`, for example "`[discussion]: your feature idea`".
 - **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
 
-## <a name="jump_submit"></a> Submission Guidelines [⬆️](#jump_top)
+## <a name="jump_submit"></a> Submission Guidelines [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
-### <a name="jump_submit-issue"></a> Submitting an Issue [⬆️](#jump_top)
+### <a name="jump_submit-issue"></a> Submitting an Issue [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 Before you submit an issue, please search the issue tracker, maybe an issue for your problem already exists and the discussion might inform you of workarounds readily available.
 
@@ -51,7 +51,7 @@ Unfortunately, we are not able to investigate / fix bugs without a minimal repro
 
 You can file new issues by filling out our [new issue form][new_issue].
 
-### <a name="jump_submit-pr"></a> Submitting a Pull Request (PR) [⬆️](#jump_top)
+### <a name="jump_submit-pr"></a> Submitting a Pull Request (PR) [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
@@ -99,7 +99,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 That's it! Thank you for your contribution!
 
-#### After your pull request is merged [⬆️](#jump_top)
+#### After your pull request is merged [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 After your pull request is merged, you can safely delete your branch and pull the changes
 from the main (upstream) repository:
@@ -128,7 +128,7 @@ from the main (upstream) repository:
   git pull --ff upstream main
   ```
 
-## <a name="jump_development"></a> Development Setup [⬆️](#jump_top)
+## <a name="jump_development"></a> Development Setup [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 You will need [Node.js][nodejs] version >= 18.15.0 (except for v13).
 
@@ -140,7 +140,7 @@ $ npm run repo:prepare
 
 That will compile fresh packages and afterward, move them all to `sample` directories.
 
-### <a name="jump_common-scripts"></a>Commonly used NPM scripts [⬆️](#jump_top)
+### <a name="jump_common-scripts"></a>Commonly used NPM scripts [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 ```bash
 # run the full unit tests suite
@@ -153,7 +153,7 @@ $ npm run prettier
 $ npm run lint
 ```
 
-## <a name="jump_rules"></a> Coding Rules [⬆️](#jump_top)
+## <a name="jump_rules"></a> Coding Rules [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
@@ -161,13 +161,13 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 - We follow [Airbnb JavaScript Style Guide][js-style-guide], but wrap all code at
   **100 characters**. An automated formatter is available (`npm run prettier:fix`).
 
-## <a name="jump_commit"></a> Commit Message Guidelines [⬆️](#jump_top)
+## <a name="jump_commit"></a> Commit Message Guidelines [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 We have very precise rules over how our git commit messages can be formatted. This leads to **more
 readable messages** that are easy to follow when looking through the **project history**. But also,
 we use the git commit messages to **generate the change log**.
 
-### Commit Message Format [⬆️](#jump_top)
+### Commit Message Format [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 Each commit message consists of a **header**, a **body** and a **footer**. The header has a special
 format that includes a **type**, a **scope** and a **subject**:
@@ -194,11 +194,11 @@ docs(changelog): update change log to beta.5
 fix(core): need to depend on latest rxjs and zone.js
 ```
 
-### Revert [⬆️](#jump_top)
+### Revert [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 If the commit reverts a previous commit, it should begin with `revert:`, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
 
-### Type [⬆️](#jump_top)
+### Type [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 Must be one of the following:
 
@@ -212,8 +212,9 @@ Must be one of the following:
 - **refactor**: A code change that neither fixes a bug nor adds a feature
 - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - **test**: Adding missing tests or correcting existing tests
+- **sample**: A change to the samples
 
-### Scope [⬆️](#jump_top)
+### Scope [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 The scope should have the name of the npm package affected (as perceived by person reading changelog generated from commit messages).
 
@@ -232,7 +233,7 @@ The following is the list of supported scopes:
 
 If your change affect more than one package, separate the scopes with a comma (e.g. `common,core`).
 
-### Subject [⬆️](#jump_top)
+### Subject [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 The subject contains succinct description of the change:
 
@@ -240,12 +241,12 @@ The subject contains succinct description of the change:
 - don't capitalize first letter
 - no dot (.) at the end
 
-### Body [⬆️](#jump_top)
+### Body [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes".
 The body should include the motivation for the change and contrast this with previous behavior.
 
-### Footer [⬆️](#jump_top)
+### Footer [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 The footer should contain any information about **Breaking Changes** and is also the place to
 reference GitHub issues that this commit **Closes**.
@@ -269,3 +270,4 @@ A detailed explanation can be found in this [document][commit-message-format].
 [npm_husky]: https://typicode.github.io/husky
 [npm_eslint]: https://eslint.org
 [npm_prettier]: https://prettier.io/
+[new_vulnerability]: https://github.com/DJBlackEagle/shared-project-tools/security/advisories/new
