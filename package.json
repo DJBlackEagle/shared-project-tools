@@ -51,9 +51,12 @@
   "files": [
     "./config/**",
     "./CHANGELOG.md",
+    "./CODE_OF_CONDUCT.md",
+    "./CONTRIBUTING.md",
     "./index.js",
     "./LICENSE",
     "./README.md",
+    "./SECURITY.md",
     "./package.json"
   ],
   "config": {
