@@ -20,7 +20,7 @@ module.exports = {
   prompt: {
     questions: {
       type: {
-        description: "Select the type of change that you're committing",
+        description: 'Select the type of change that you are committing',
         enum: {
           feat: {
             description: 'A new feature',
@@ -71,7 +71,7 @@ module.exports = {
             emoji: '⚙️',
           },
           chore: {
-            description: "Other changes that don't modify src or test files",
+            description: 'Other changes that do not modify src or test files',
             title: 'Chores',
             emoji: '♻️',
           },
