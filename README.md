@@ -4,41 +4,28 @@
 
 - [What is @djblackeagle/shared-project-tools](#what-is-djblackeagleshared-project-tools)
 - [Benefits using this package?](#benefits-using-this-package)
-- [How to clone this repository](#how-to-clone-this-repository)
+- [How to contributing on this repository](#how-to-contributing-on-this-repository)
 - [Getting started](#getting-started)
-  - [Using ESLint config](#using-eslint-config)
-  - [Using Prettier config](#using-prettier-config)
-  - [Using release-it config](#using-release-it-config)
-  - [Using commitlint config](#using-commitlint-config)
-  - [Using nano-staged config](#using-nano-staged-config)
-  - [Using lint-staged config](#using-lint-staged-config)
+  - [Configure ESLint](#configure-eslint)
+  - [Configure Prettier](#configure-prettier)
+- [Using release-it config](#using-release-it-config)
+- [Using commitlint config](#using-commitlint-config)
+- [Using nano-staged config](#using-nano-staged-config)
+- [Using lint-staged config](#using-lint-staged-config)
 
-# What is @djblackeagle/shared-project-tools
+# What is @djblackeagle/shared-project-tools [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
 @djblackeagle/shared-project-tools shares configuration of commitlint, eslint, nano-staged, prettier and release-it.
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
-
-# Benefits using this package?
+# Benefits using this package? [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
 Easier code styling etc over multiple repositories. And it's esier, to update rules for code styles.
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+# How to contributing on this repository [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-# How to clone this repository
+Read the [contributing file][contributing].
 
-1. Clone this repository with `git clone` command.
-2. Execute the following command:
-
-```sh
-npm run repo:prepare
-```
-
-3. This command will prepare the repository automatically. It's install all needed dependencies and all other things.
-
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
-
-# Getting started
+# Getting started [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
 Install @djblackeagle/shared-project-tools
 
@@ -54,32 +41,12 @@ Yarn
 yarn add --dev @djblackeagle/shared-project-tools
 ```
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+## Configure ESLint [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-## Using ESLint config
+---
 
-### Requirements
-
-- Prettier - Prefer this prettier base config. [How to use it](#using-prettier-config).
-
-### Installing
-
-1. Install `eslint` and other dependencies in your package as devDependencies.
-
-npm
-
-```sh
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier prettier
-```
-
-Yarn
-
-```sh
-yarn add --dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-config-airbnb-typescript eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier prettier
-```
-
-2. Create file `.eslintrc.js` in the root folder.
-3. You can choose, which style of config you want. Here the base config.
+1. Create file `.eslintrc.js` in the root folder.
+2. You can choose, which style of config you want. Here the base config.
 
 ```js
 const config = require('@djblackeagle/shared-project-tools');
@@ -94,8 +61,8 @@ module.exports = {
 };
 ```
 
-4. Save file.
-5. Create file `tsconfig.eslint.json` in the root folder.
+3. Save file.
+4. Create file `tsconfig.eslint.json` in the root folder.
 
 ```json
 {
@@ -125,32 +92,12 @@ module.exports = {
 };
 ```
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+## Configure Prettier [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-## Using Prettier config
+---
 
-### Requirements
-
-- No requirements
-
-### Installing
-
-1. Install `prettier` and other dependencies in your package as devDependencies.
-
-npm
-
-```sh
-npm install --save-dev prettier
-```
-
-Yarn
-
-```sh
-yarn add --dev prettier
-```
-
-2. Create file `.prettierrc.js` in the root folder.
-3. You can choose, which style of config you want. Here the base config.
+1. Create file `.prettierrc.js` in the root folder.
+2. You can choose, which style of config you want. Here the base config.
 
 ```js
 const config = require('@djblackeagle/shared-project-tools');
@@ -158,8 +105,8 @@ const config = require('@djblackeagle/shared-project-tools');
 module.exports = config.prettier.base;
 ```
 
-4. Save file.
-5. If you want change some options, you can do like this:
+3. Save file.
+4. If you want change some options, you can do like this:
 
 ```js
 const config = require('@djblackeagle/shared-project-tools');
@@ -170,8 +117,8 @@ module.exports = {
 };
 ```
 
-6. Create file `.prettierignore` in the root folder.
-7. You can use this ignore pattern to ignore file for prettier.
+5. Create file `.prettierignore` in the root folder.
+6. You can use this ignore pattern to ignore file for prettier.
 
 ```
 **/.git/
@@ -184,15 +131,13 @@ yarn.lock
 package-lock.json
 ```
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+# Using release-it config [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-## Using release-it config
-
-### Requirements
+## Requirements
 
 - No requirements
 
-### Installing
+## Installing
 
 1. Install `release-it` and other dependencies in your package as devDependencies.
 
@@ -232,15 +177,13 @@ module.exports = {
 };
 ```
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+# Using commitlint config [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-## Using commitlint config
-
-### Requirements
+## Requirements
 
 - husky - How to install, look in the [documentation of husky](https://typicode.github.io/husky/).
 
-### Installing
+## Installing
 
 1. Install `commitlint` and other dependencies in your package as devDependencies.
 
@@ -286,15 +229,13 @@ module.exports = {
 npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"
 ```
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+# Using nano-staged config [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-## Using nano-staged config
-
-### Requirements
+## Requirements
 
 - husky - How to install, look in the [documentation of husky](https://typicode.github.io/husky/).
 
-### Installing
+## Installing
 
 1. Install `nano-staged` and other dependencies in your package as devDependencies.
 
@@ -337,15 +278,13 @@ module.exports = {
 npx husky add .husky/pre-commit "npx nano-staged"
 ```
 
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+# Using lint-staged config [⬆️](#welcome-to-djblackeagleshared-project-tools)
 
-## Using lint-staged config
-
-### Requirements
+## Requirements
 
 - husky - How to install, look in the [documentation of husky](https://typicode.github.io/husky/).
 
-### Installing
+## Installing
 
 1. Install `lint-staged` and other dependencies in your package as devDependencies.
 
@@ -387,8 +326,6 @@ module.exports = {
 ```sh
 npx husky add .husky/pre-commit "npx lint-staged"
 ```
-
-[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
 
 [coc]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/CODE_OF_CONDUCT.md
 [readme]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/README.md
