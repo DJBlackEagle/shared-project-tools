@@ -1,5 +1,42 @@
 # Changelog
 
+## [3.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/2.1.1...3.0.0) (2023-06-14)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** ESLint and Prettier not longer as devDependencies. Both are required now. ESLint
+  and Prettier are minimum of use. It's can get more error messages on linting.
+- **ESLint:** Many ESLint rules are activated now. It's can be bring many ESLint error messages.
+
+### Features
+
+- **deps:** move ESLint and Prettier packages to dependencies ([3903872](https://github.com/DJBlackEagle/shared-project-tools/commit/39038724e6e8e1b315a3af2e6238ccda4ca877b2)), closes [#196](https://github.com/DJBlackEagle/shared-project-tools/issues/196)
+- **ESLint:** add more code rules ([1b18c0c](https://github.com/DJBlackEagle/shared-project-tools/commit/1b18c0c65d54be0b5fcf931ad8770da5974115cc)), closes [#196](https://github.com/DJBlackEagle/shared-project-tools/issues/196)
+- **project:** add CODE_OF_CONDUCT, CONTRIBUTING, SECURITY file on publish list ([c637e3c](https://github.com/DJBlackEagle/shared-project-tools/commit/c637e3c66c5152368fecd363d93a5fd7a3325a84)), closes [#215](https://github.com/DJBlackEagle/shared-project-tools/issues/215)
+- **repository:** add a checkbox to the repository issue template ([64ad869](https://github.com/DJBlackEagle/shared-project-tools/commit/64ad8698827128396e0525b0213d8cb519b88cd1)), closes [#201](https://github.com/DJBlackEagle/shared-project-tools/issues/201)
+- **repository:** add on README.md a link list ([0271ee8](https://github.com/DJBlackEagle/shared-project-tools/commit/0271ee8f2990ef29de6b291bd847497e5b202cbc)), closes [#201](https://github.com/DJBlackEagle/shared-project-tools/issues/201)
+- **repository:** add SECURITY.md file ([81c39d4](https://github.com/DJBlackEagle/shared-project-tools/commit/81c39d41c29dcbe9c178b2b9e82dae64832cd13b)), closes [#207](https://github.com/DJBlackEagle/shared-project-tools/issues/207)
+
+### Bug Fixes
+
+- **repository:** fix broken link at the CONTRIBUTING.md ([bdb5380](https://github.com/DJBlackEagle/shared-project-tools/commit/bdb5380ebe24b0ebfdd20241849a23bfbca25199)), closes [#201](https://github.com/DJBlackEagle/shared-project-tools/issues/201)
+- **repository:** rename bug report issue template ([c4c6afc](https://github.com/DJBlackEagle/shared-project-tools/commit/c4c6afcaf7a959cbb60e2def35a01dc94e644bcb)), closes [#201](https://github.com/DJBlackEagle/shared-project-tools/issues/201)
+- **repository:** rename issue templates ([3ceffe3](https://github.com/DJBlackEagle/shared-project-tools/commit/3ceffe3d3beeaf3baf6b212f4af6e33c871bb9d8)), closes [#201](https://github.com/DJBlackEagle/shared-project-tools/issues/201)
+
+### Documentation
+
+- **readme:** update readme ([ec113ae](https://github.com/DJBlackEagle/shared-project-tools/commit/ec113ae635d2b4265705ed4cb96215a5b580475c)), closes [#196](https://github.com/DJBlackEagle/shared-project-tools/issues/196)
+- **repository:** add code of conduct ([01b309d](https://github.com/DJBlackEagle/shared-project-tools/commit/01b309de9322348b9d93f3ae21ea0aa5bda91552)), closes [#180](https://github.com/DJBlackEagle/shared-project-tools/issues/180)
+- **repository:** add code of conduct ([61352cd](https://github.com/DJBlackEagle/shared-project-tools/commit/61352cdf56f8ffe9ee2c8c3bbd1af93c6707a5fa)), closes [#180](https://github.com/DJBlackEagle/shared-project-tools/issues/180)
+- **repository:** add contributing markdown ([b2ab9b0](https://github.com/DJBlackEagle/shared-project-tools/commit/b2ab9b02e01182e7332582d33f814f623f252370)), closes [#181](https://github.com/DJBlackEagle/shared-project-tools/issues/181)
+- **repository:** add contributing markdown ([13ca3e0](https://github.com/DJBlackEagle/shared-project-tools/commit/13ca3e0f0e53aa7fd3844999c9d3542abf63b8ce)), closes [#181](https://github.com/DJBlackEagle/shared-project-tools/issues/181)
+- **repository:** add issue templates for GitHub ([31c8bb3](https://github.com/DJBlackEagle/shared-project-tools/commit/31c8bb3128cf420cd14316b9999a10fef4b53688)), closes [#179](https://github.com/DJBlackEagle/shared-project-tools/issues/179)
+- **repository:** add issue templates for GitHub ([3fb94e0](https://github.com/DJBlackEagle/shared-project-tools/commit/3fb94e0db34009a6da8c06810b53bdb1b10a2f4a)), closes [#179](https://github.com/DJBlackEagle/shared-project-tools/issues/179)
+- **repository:** add pull request status checks ([f8bf469](https://github.com/DJBlackEagle/shared-project-tools/commit/f8bf4692e7cecb6c655075960bd2f2816f48dfec)), closes [#183](https://github.com/DJBlackEagle/shared-project-tools/issues/183)
+- **repository:** add pull request template for GitHub ([8f8a639](https://github.com/DJBlackEagle/shared-project-tools/commit/8f8a639ddcafc25a4219dba35fdb3032aa302be2)), closes [#183](https://github.com/DJBlackEagle/shared-project-tools/issues/183)
+- **repository:** add pull request template for GitHub ([c401de7](https://github.com/DJBlackEagle/shared-project-tools/commit/c401de72862a4bda239fc5288745f5c17312870c)), closes [#182](https://github.com/DJBlackEagle/shared-project-tools/issues/182)
+- **repository:** add pull request template for GitHub ([d706e66](https://github.com/DJBlackEagle/shared-project-tools/commit/d706e66dc825d46b91abfd5f068bd2976b31b7dd)), closes [#182](https://github.com/DJBlackEagle/shared-project-tools/issues/182)
+
 ## [2.1.1](https://github.com/DJBlackEagle/shared-project-tools/compare/2.1.0...2.1.1) (2023-05-17)
 
 ## [2.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/2.0.0...2.1.0) (2023-05-13)
