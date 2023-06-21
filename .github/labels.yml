@@ -67,7 +67,7 @@
   description: 'This issue may be useful, and needs some attention.'
 - name: 'priority-low'
   color: e4ea8a
-  description: 'Nice addition, maybe... someday...'
+  description: 'Nice addition, maybe...'
 
 - name: 'todo'
   color: 5319e7
@@ -78,6 +78,12 @@
 - name: 'needs triage'
   color: 1d76db
   description: 'We need to talk.'
+- name: 'common'
+  color: 2b4e67
+  description: 'Common label for everything else.'
+- name: 'project'
+  color: 2b4e67
+  description: 'Which depends on this project.'
 
 - name: 'release'
   color: 0e8a16
@@ -89,3 +95,6 @@
 - name: 'github-actions'
   color: 8a91ad
   description: 'Created by the github-action.'
+- name: 'github'
+  color: 8a91ad
+  description: 'Which depends on GitHub.'
