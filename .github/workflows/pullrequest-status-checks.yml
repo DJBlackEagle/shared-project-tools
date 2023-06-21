@@ -1,4 +1,4 @@
-name: Pull-Request Check
+name: Pull-Request Status Check
 
 on:
   pull_request:
@@ -43,4 +43,4 @@ jobs:
       - name: Install dependencies 🔧
         run: npm ci
       - name: Run ESLint 📝
-        run: npm run prettier
+        run: npm run lint

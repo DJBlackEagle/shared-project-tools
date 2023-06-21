@@ -1,4 +1,4 @@
-name: Publish Package to npmjs
+name: Publish Package to NPM registry
 
 on:
   release:
@@ -17,7 +17,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies 🔧
         run: npm ci
-      - name: Publish package to npmjs 📦
+      - name: Publish package to NPM registry 📦
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
