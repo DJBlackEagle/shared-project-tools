@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/3.0.0...4.0.0) (2023-06-21)
+
+### ⚠ BREAKING CHANGES
+
+- **project:** ESLint and Prettier are now optional and need be installed.
+
+### Bug Fixes
+
+- **project:** made eslint and prettier optional again and update readme ([a60d484](https://github.com/DJBlackEagle/shared-project-tools/commit/a60d484ae88722b35cd10375ae10d289ff424a03))
+
 ## [3.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/2.1.1...3.0.0) (2023-06-14)
 
 ### ⚠ BREAKING CHANGES
