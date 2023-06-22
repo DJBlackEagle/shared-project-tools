@@ -36,6 +36,8 @@ npm run repo:prepare
 
 3. This command will prepare the repository automatically. It's install all needed dependencies and all other things.
 
+This repository use Yarn instead of NPM. NPM is only used for publishing the package via GitHub workflow.
+
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
 
 # Getting started
