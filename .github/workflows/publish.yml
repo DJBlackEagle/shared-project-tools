@@ -16,7 +16,7 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies 🔧
-        run: npm ci
+        run: yarn install --immutable
       - name: Publish package to NPM registry 📦
         run: npm publish
         env:

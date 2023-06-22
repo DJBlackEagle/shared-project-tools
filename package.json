@@ -4,7 +4,6 @@
   "description": "Shared project tools config.",
   "license": "MIT",
   "author": "DJBlackEagle <122323412+DJBlackEagle@users.noreply.github.com>",
-  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DJBlackEagle/shared-project-tools.git"
@@ -15,9 +14,10 @@
   "homepage": "https://github.com/DJBlackEagle/shared-project-tools#readme",
   "engines": {
     "npm": ">= 9.6.1",
-    "yarn": "please-use-npm",
-    "node": ">=18.15.0"
+    "yarn": ">= 3.6.0",
+    "node": ">= 18.15.0"
   },
+  "packageManager": "yarn@3.6.0",
   "publishConfig": {
     "access": "public"
   },
@@ -28,7 +28,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "",
-    "git:finish": "echo \"Finish issue.\" && npm run git:add && npm run git:status && npm run git:commit && npm run git:push",
+    "git:finish": "echo \"Finish issue.\" && yarn run git:add && yarn run git:status && yarn run git:commit && yarn run git:push",
     "git:add": "echo \"Stage all files.\" && git add .",
     "git:status": "echo \"Show status of the files.\" && git status",
     "git:commit": "echo \"Commit staged files.\" && cz",
@@ -43,8 +43,8 @@
     "rel:ci": "dotenv -- release-it --ci",
     "rel:ci:beta": "dotenv -- release-it --preRelease=beta --ci",
     "rel:ci:dev": "dotenv -- release-it --preRelease=dev --ci",
-    "repo:prepare": "npm run repo:prepare:pkgs && npm run repo:prepare:husky && npm run repo:prepare:env",
-    "repo:prepare:pkgs": "npm install",
+    "repo:prepare": "npm run repo:prepare:pkgs && yarn run repo:prepare:husky && yarn run repo:prepare:env",
+    "repo:prepare:pkgs": "yarn install",
     "repo:prepare:husky": "npx husky install",
     "repo:prepare:env": "cp -i .env.example .env || copy /-Y .env.example .env"
   },
@@ -64,7 +64,6 @@
       "path": "@commitlint/cz-commitlint"
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",

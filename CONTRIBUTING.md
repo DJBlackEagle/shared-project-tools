@@ -138,19 +138,17 @@ You will need [Node.js][nodejs] version >= 18.15.0 (except for v13).
 $ npm run repo:prepare
 ```
 
-That will compile fresh packages and afterward, move them all to `sample` directories.
-
-### <a name="jump_common-scripts"></a>Commonly used NPM scripts [⬆️](#contributing-to-djblackeagleshared-project-tools)
+### <a name="jump_common-scripts"></a>Commonly used Yarn scripts [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
 ```bash
 # run the full unit tests suite
-$ npm run test
+$ yarn run test
 
 # run Prettier
-$ npm run prettier
+$ yarn run prettier
 
 # run linter
-$ npm run lint
+$ yarn run lint
 ```
 
 ## <a name="jump_rules"></a> Coding Rules [⬆️](#contributing-to-djblackeagleshared-project-tools)
@@ -159,7 +157,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 - All features or bug fixes **must be tested** by one or more specs (unit-tests).
 - We follow [Airbnb JavaScript Style Guide][js-style-guide], but wrap all code at
-  **100 characters**. An automated formatter is available (`npm run prettier:fix`).
+  **100 characters**. An automated formatter is available (`yarn run prettier:fix`).
 
 ## <a name="jump_commit"></a> Commit Message Guidelines [⬆️](#contributing-to-djblackeagleshared-project-tools)
 
