@@ -20,11 +20,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: 'yarn'
       - name: Install dependencies 🔧
-        run: npm ci
+        run: yarn install --immutable
       - name: Run Prettier 📃
-        run: npm run prettier
+        run: yarn run prettier
 
   code_check:
     name: Linting the source code
@@ -39,8 +39,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: 'yarn'
       - name: Install dependencies 🔧
-        run: npm ci
+        run: yarn install --immutable
       - name: Run ESLint 📝
-        run: npm run lint
+        run: yarn run lint
