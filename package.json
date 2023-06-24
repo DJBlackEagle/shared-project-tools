@@ -46,7 +46,8 @@
     "repo:prepare": "npm run repo:prepare:pkgs && yarn run repo:prepare:husky && yarn run repo:prepare:env",
     "repo:prepare:pkgs": "yarn install",
     "repo:prepare:husky": "npx husky install",
-    "repo:prepare:env": "cp -i .env.example .env || copy /-Y .env.example .env"
+    "repo:prepare:env": "cp -i .env.example .env || copy /-Y .env.example .env",
+    "prj:upgrade": "yarn upgrade-interactive"
   },
   "files": [
     "./config/**",
@@ -82,7 +83,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
     "nano-staged": "^0.8.0",
-    "npm-check-updates": "^16.10.12",
     "prettier": "^2.8.8",
     "release-it": "^15.11.0"
   }
