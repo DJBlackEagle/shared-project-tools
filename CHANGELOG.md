@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.2.0](https://github.com/DJBlackEagle/shared-project-tools/compare/4.0.0...4.2.0) (2023-06-28)
+
+### Features
+
+- **nano-staged:** add yml extension for Prettier check up ([491cbd0](https://github.com/DJBlackEagle/shared-project-tools/commit/491cbd0b1017f505f5edea4ef2a9a434ef0f491d)), closes [#229](https://github.com/DJBlackEagle/shared-project-tools/issues/229)
+
 ## [4.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/4.0.0...4.1.0) (2023-06-28)
 
 ### Features
