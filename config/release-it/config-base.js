@@ -43,7 +43,7 @@ module.exports = {
     releaseNotes: null,
     autoGenerate: true,
     preRelease: false,
-    draft: false,
+    draft: true,
     tokenRef: 'GITHUB_TOKEN',
     assets: null,
     host: null,
