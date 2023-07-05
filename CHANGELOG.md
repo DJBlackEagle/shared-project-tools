@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/4.0.0...5.0.0) (2023-07-05)
+
+### ⚠ BREAKING CHANGES
+
+- **release-it:** The GitHub release, would not be published directly anymore. It's now only as a
+  draft. Set the config: github.draft to false and it will still be published directly.
+
+### Features
+
+- **nano-staged:** add yml extension for Prettier check up ([491cbd0](https://github.com/DJBlackEagle/shared-project-tools/commit/491cbd0b1017f505f5edea4ef2a9a434ef0f491d)), closes [#229](https://github.com/DJBlackEagle/shared-project-tools/issues/229)
+- **release-it:** change GitHub release draft from false to true ([216a47d](https://github.com/DJBlackEagle/shared-project-tools/commit/216a47da738cd33f0e6647031af0b204a51751eb)), closes [#243](https://github.com/DJBlackEagle/shared-project-tools/issues/243)
+
 ## [4.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/4.0.0...4.1.0) (2023-06-28)
 
 ### Features
