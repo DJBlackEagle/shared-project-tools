@@ -1,4 +1,4 @@
-const commitlint = require('.commitlintrc');
+const commitlint = require('./.commitlintrc');
 
 module.exports = {
   hooks: {
