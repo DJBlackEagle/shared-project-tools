@@ -1,3 +1,9 @@
-const config = require('./config');
-
-module.exports = config.prettier.base;
+module.exports = {
+  semi: true,
+  tabWidth: 2,
+  trailingComma: 'all',
+  singleQuote: true,
+  bracketSpacing: true,
+  endOfLine: 'lf',
+  printWidth: 120,
+};
