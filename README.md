@@ -392,6 +392,43 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
 
+# CLI commands
+
+Console
+
+```sh
+npx djbe-shared-project-tools
+```
+
+In package.json
+
+```json
+{
+  "git:clean": "djbe-shared-project-tools git pruneGoneBranches"
+}
+```
+
+# Commands
+
+## git
+
+This main command, holds some git tools commands (like pruneGoneBranches).
+
+### git pruneGoneBranches
+
+This command would delete all branches, which doesn't exists anymore and merged already. If the current branch is deleted already remote, it will not delete the current local branch.
+
+- Parameter `-f, --force`: You can force to delete the local branch, even the branch is not merged already remote.
+- Parameter `-d, --dry-run`: This option don't delete any branches.
+
+Console
+
+```sh
+npx djbe-shared-project-tools git pruneGoneBranches
+```
+
+[[Go to top](#welcome-to-djblackeagleshared-project-tools)]
+
 [coc]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/CODE_OF_CONDUCT.md
 [readme]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/README.md
 [changelog]: https://github.com/DJBlackEagle/shared-project-tools/blob/main/CHANGELOG.md

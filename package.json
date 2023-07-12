@@ -22,6 +22,9 @@
     "access": "public"
   },
   "main": "dist/index.js",
+  "bin": {
+    "djbe-shared-project-tools": "bin/cli.js"
+  },
   "scripts": {
     "clean": "yarn run clean:build && yarn run clean:additional",
     "clean:build": "echo \"Clean build data.\" && rm -rf ./dist/",
