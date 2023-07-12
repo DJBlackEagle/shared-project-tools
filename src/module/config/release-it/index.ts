@@ -1,7 +1,7 @@
 /* eslint-disable no-template-curly-in-string */
-const configCommitlint = require('../commitlint');
+import { commitlint } from '../commitlint';
 
-module.exports = {
+const base = {
   hooks: {
     'after:release': 'echo Successfully released ${name} v${version} to ${repo.repository}.',
   },
@@ -74,60 +74,62 @@ module.exports = {
           {
             type: 'docs',
             hidden: false,
-            section: configCommitlint.base.prompt.questions.type.enum.docs.title,
+            section: commitlint.prompt.questions.type.enum.docs.title,
           },
           {
             type: 'fix',
             hidden: false,
-            section: configCommitlint.base.prompt.questions.type.enum.fix.title,
+            section: commitlint.prompt.questions.type.enum.fix.title,
           },
           {
             type: 'perf',
             hidden: false,
-            section: configCommitlint.base.prompt.questions.type.enum.perf.title,
+            section: commitlint.prompt.questions.type.enum.perf.title,
           },
           {
             type: 'feat',
             hidden: false,
-            section: configCommitlint.base.prompt.questions.type.enum.feat.title,
+            section: commitlint.prompt.questions.type.enum.feat.title,
           },
           {
             type: 'refactor',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.refactor.title,
+            section: commitlint.prompt.questions.type.enum.refactor.title,
           },
           {
             type: 'revert',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.revert.title,
+            section: commitlint.prompt.questions.type.enum.revert.title,
           },
           {
             type: 'test',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.test.title,
+            section: commitlint.prompt.questions.type.enum.test.title,
           },
           {
             type: 'style',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.style.title,
+            section: commitlint.prompt.questions.type.enum.style.title,
           },
           {
             type: 'build',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.build.title,
+            section: commitlint.prompt.questions.type.enum.build.title,
           },
           {
             type: 'ci',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.ci.title,
+            section: commitlint.prompt.questions.type.enum.ci.title,
           },
           {
             type: 'chore',
             hidden: true,
-            section: configCommitlint.base.prompt.questions.type.enum.chore.title,
+            section: commitlint.prompt.questions.type.enum.chore.title,
           },
         ],
       },
     },
   },
 };
+
+export const releaseIt = { ...base };

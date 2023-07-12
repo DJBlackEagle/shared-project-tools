@@ -21,12 +21,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "clean": "yarn run clean:build && yarn run clean:additional",
+    "clean:build": "echo \"Clean build data.\" && rm -rf ./dist/",
+    "clean:additional": "echo \"Clean additional data.\" && rm -rf ./node_modules/",
+    "build": "echo \"Build project.\" && tsc -p ./tsconfig.build.json",
+    "prettier": "echo \"Check source code formating.\" && prettier --check .",
+    "prettier:fix": "echo \"Fix source code formating.\" && prettier --write .",
+    "lint": "echo \"Lint source code checking.\" && eslint .",
+    "lint:fix": "echo \"Lint source code and fix it.\" && eslint --fix .",
     "test": "",
     "git:finish": "echo \"Finish issue.\" && yarn run git:add && yarn run git:status && yarn run git:commit && yarn run git:push",
     "git:add": "echo \"Stage all files.\" && git add .",
@@ -50,7 +54,7 @@
     "prj:upgrade": "yarn upgrade-interactive"
   },
   "files": [
-    "./config/**",
+    "./dist",
     "./CHANGELOG.md",
     "./CODE_OF_CONDUCT.md",
     "./CONTRIBUTING.md",
@@ -69,9 +73,9 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@commitlint/cz-commitlint": "^17.5.0",
-    "@release-it/conventional-changelog": "^5.1.1",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.60.1",
+    "@release-it/conventional-changelog": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "commitizen": "^4.3.0",
     "dotenv-cli": "^7.2.1",
     "eslint": "^8.44.0",
@@ -80,10 +84,12 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "nano-staged": "^0.8.0",
-    "prettier": "^2.8.8",
-    "release-it": "^15.11.0"
+    "prettier": "^3.0.0",
+    "release-it": "^16.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
   }
 }

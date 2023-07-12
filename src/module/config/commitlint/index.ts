@@ -1,4 +1,4 @@
-module.exports = {
+const base = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
     'body-leading-blank': [1, 'always'],
@@ -113,3 +113,5 @@ module.exports = {
     },
   },
 };
+
+export const commitlint = { ...base };

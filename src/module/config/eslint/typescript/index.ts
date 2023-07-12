@@ -1,6 +1,6 @@
-const prettierConfig = require('../../prettier');
+import { prettier } from '../../prettier';
 
-module.exports = {
+const base = {
   env: {
     browser: true,
     es2022: true,
@@ -35,6 +35,7 @@ module.exports = {
           '**/*.spec.ts',
           '.commitlintrc.js',
           '.eslintrc.js',
+          '.lint-staged.js',
           '.nano-staged.js',
           '.prettierrc.js',
           '.release-it.js',
@@ -105,7 +106,7 @@ module.exports = {
     'prefer-arrow-callback': ['error', { allowNamedFunctions: false, allowUnboundThis: true }],
     'prefer-const': 'error',
     'prefer-template': 'error',
-    'prettier/prettier': ['error', prettierConfig.base],
+    'prettier/prettier': ['error', prettier],
     quotes: ['error', 'single'],
     'semi-style': ['error', 'last'],
     'use-isnan': 'error',
@@ -114,3 +115,5 @@ module.exports = {
   },
   ignorePatterns: ['**/node_modules/**/*', '**/dist/*', '**/build/*', 'yarn.local', '.yarn/*', 'package-lock.json'],
 };
+
+export const typescript = { ...base };

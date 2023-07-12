@@ -1,4 +1,4 @@
-const configPrettier = {
+const base = {
   semi: true,
   tabWidth: 2,
   trailingComma: 'all',
@@ -8,4 +8,4 @@ const configPrettier = {
   printWidth: 120,
 };
 
-module.exports = configPrettier;
+export const prettier = { ...base };

@@ -36,7 +36,7 @@ npm run repo:prepare
 
 3. This command will prepare the repository automatically. It's install all needed dependencies and all other things.
 
-This repository use Yarn instead of NPM. NPM is only used for publishing the package via GitHub workflow.
+This repository **`use Yarn instead of NPM`**. NPM is only used for publishing the package via GitHub workflow.
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
 
@@ -84,10 +84,10 @@ yarn add --dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
 3. You can choose, which style of config you want. Here the base config.
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.eslint.typescript.base,
+  ...sharedConfig.eslint.typescript.base,
   parserOptions: {
     tsconfigRootDir: __dirname,
     extends: './tsconfig.eslint.json',
@@ -111,12 +111,12 @@ module.exports = {
 6. If you want change some options, you can do like this:
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.eslint.typescript.base,
+  ...sharedConfig.eslint.typescript.base,
   env: {
-    ...config.eslint.typescript.base,
+    ...sharedConfig.eslint.typescript.base,
     node: false,
   },
   parserOptions: {
@@ -155,19 +155,19 @@ yarn add --dev prettier
 3. You can choose, which style of config you want. Here the base config.
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
-module.exports = config.prettier.base;
+module.exports = sharedConfig.prettier.base;
 ```
 
 4. Save file.
 5. If you want change some options, you can do like this:
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.prettier.base,
+  ...sharedConfig.prettier.base,
   tabWidth: 4,
 };
 ```
@@ -214,21 +214,21 @@ yarn add --dev release-it @release-it/conventional-changelog
 3. You can choose, which style of config you want. Here the base config.
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
-module.exports = config.releaseIt.base;
+module.exports = sharedConfig.releaseIt.base;
 ```
 
 4. Save file.
 5. If you want change some options, you can do like this:
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.releaseIt.base,
+  ...sharedConfig.releaseIt.base,
   git: {
-    ...config.releaseIt.base.git,
+    ...sharedConfig.releaseIt.base.git,
     push: false,
   },
 };
@@ -262,21 +262,21 @@ yarn add --dev @commitlint/cli @commitlint/config-conventional
 3. You can choose, which style of config you want. Here the base config.
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
-module.exports = config.commitlint.base;
+module.exports = sharedConfig.commitlint.base;
 ```
 
 4. Save file.
 5. If you want change some options, you can do like this:
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.commitlint.base,
+  ...sharedConfig.commitlint.base,
   rules: {
-    ...config.commitlint.base.rules,
+    ...sharedConfig.commitlint.base.rules,
     'header-max-length': [2, 'always', 250],
   },
 };
@@ -316,19 +316,19 @@ yarn add --dev nano-staged
 3. You can choose, which style of config you want. Here the base config.
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
-module.exports = config.nanoStaged.base;
+module.exports = sharedConfig.nanoStaged.base;
 ```
 
 4. Save file.
 5. If you want change some options, you can do like this:
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.nanoStaged.base,
+  ...sharedConfig.nanoStaged.base,
   '*.{xml}': (api) => `validate-xml.sh ${api.filenames.join(' ')}`,
 };
 ```
@@ -367,19 +367,19 @@ yarn add --dev lint-staged
 3. You can choose, which style of config you want. Here the base config.
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
-module.exports = config.lintStaged.base;
+module.exports = sharedConfig.lintStaged.base;
 ```
 
 4. Save file.
 5. If you want change some options, you can do like this:
 
 ```js
-const config = require('@djblackeagle/shared-project-tools');
+const sharedConfig = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...config.lintStaged.base,
+  ...sharedConfig.lintStaged.base,
   '*.{xml}': (api) => `validate-xml.sh ${api.filenames.join(' ')}`,
 };
 ```
