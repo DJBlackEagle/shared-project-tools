@@ -67,7 +67,7 @@
   description: 'This issue may be useful, and needs some attention.'
 - name: 'priority-low'
   color: e4ea8a
-  description: 'Nice addition, maybe...'
+  description: 'Nice addition.'
 
 - name: 'todo'
   color: 5319e7
