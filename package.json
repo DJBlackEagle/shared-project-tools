@@ -22,11 +22,16 @@
     "access": "public"
   },
   "main": "dist/index.js",
+  "bin": {
+    "djbe-shared-project-tools": "bin/cli.js"
+  },
   "scripts": {
     "clean": "yarn run clean:build && yarn run clean:additional",
     "clean:build": "echo \"Clean build data.\" && rm -rf ./dist/",
     "clean:additional": "echo \"Clean additional data.\" && rm -rf ./node_modules/",
     "build": "echo \"Build project.\" && tsc -p ./tsconfig.build.json",
+    "start": "node bin/cli.js",
+    "start:dev": "ts-node src/cli",
     "prettier": "echo \"Check source code formating.\" && prettier --check .",
     "prettier:fix": "echo \"Fix source code formating.\" && prettier --write .",
     "lint": "echo \"Lint source code checking.\" && eslint .",
@@ -54,6 +59,7 @@
     "prj:upgrade": "yarn upgrade-interactive"
   },
   "files": [
+    "./bin",
     "./dist",
     "./CHANGELOG.md",
     "./CODE_OF_CONDUCT.md",
@@ -68,6 +74,11 @@
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "simple-git": "^3.19.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
