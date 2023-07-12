@@ -17,6 +17,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies 🔧
         run: yarn install --immutable
+      - name: Build package 🔧
+        run: yarn run build
       - name: Publish package to NPM registry 📦
         run: npm publish
         env:
