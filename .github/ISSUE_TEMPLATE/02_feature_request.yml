@@ -1,13 +1,13 @@
 name: '🚀 Feature Request'
 description: 'I have a suggestion 😻!'
 assignees:
-  - DJBlackEagle
+  - 'DJBlackEagle'
 labels: ['feature']
 body:
   - type: markdown
     attributes:
       value: |
-        ## :warning: We use GitHub Issues to track bug reports, feature requests and regressions
+        ## ⚠️ We use GitHub Issues to track bug reports, feature requests and regressions
 
         ---
 
