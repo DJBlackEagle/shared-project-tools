@@ -12,6 +12,9 @@
   - [Using commitlint config](#using-commitlint-config)
   - [Using nano-staged config](#using-nano-staged-config)
   - [Using lint-staged config](#using-lint-staged-config)
+- [CLI commands](#cli-commands)
+  - [Commands](#commands)
+    - [git](#git)
 
 # What is @djblackeagle/shared-project-tools
 
@@ -394,11 +397,7 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 # CLI commands
 
-Console
-
-```sh
-npx djbe-shared-project-tools
-```
+You can call it `npx djbe-shared-project-tools`. For the bin name, exists a short name: `npx djbe-spt`
 
 In package.json
 
@@ -409,6 +408,10 @@ In package.json
 ```
 
 # Commands
+
+## help
+
+Print the help.
 
 ## git
 
