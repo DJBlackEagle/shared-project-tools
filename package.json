@@ -21,7 +21,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "bin": {
     "djbe-shared-project-tools": "bin/cli.js"
   },
