@@ -1,5 +1,34 @@
 # Changelog
 
+## [8.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/5.0.0...8.0.0) (2023-07-13)
+
+### ⚠ BREAKING CHANGES
+
+- **project:** The old config share modules are migrated. Instead of config, it's needed to use
+  sharedConfig.
+
+### Features
+
+- **cli:** add git command and git subcommand pruneGoneBranches ([4b67702](https://github.com/DJBlackEagle/shared-project-tools/commit/4b677022f61aa7c7597c34e5d964ce5200f6927f)), closes [#250](https://github.com/DJBlackEagle/shared-project-tools/issues/250)
+- **config:** change sharedConfig export name to config export name ([5665ebc](https://github.com/DJBlackEagle/shared-project-tools/commit/5665ebc06406f564719f27aa559dccea363c9b53))
+- **project:** add short form of bin file ([a930f8b](https://github.com/DJBlackEagle/shared-project-tools/commit/a930f8bae378ccd1334425e41d87c5ddbf756c7e))
+- **project:** migrate config module to typescript ([5a42b14](https://github.com/DJBlackEagle/shared-project-tools/commit/5a42b14b34cdda966a9af78b9e71ac2219aaea52)), closes [#249](https://github.com/DJBlackEagle/shared-project-tools/issues/249)
+- **project:** switch config to sharedConfig ([ba59932](https://github.com/DJBlackEagle/shared-project-tools/commit/ba59932ac267c4d21e5c7e9e464f9d28cef94ecf)), closes [#261](https://github.com/DJBlackEagle/shared-project-tools/issues/261)
+
+### Bug Fixes
+
+- **package:** fix main entry in package.json ([b072fe1](https://github.com/DJBlackEagle/shared-project-tools/commit/b072fe1191b8b74b7b189830af6d4486206cfe50))
+- **project:** forgot to update yarn.lock ([2c30caa](https://github.com/DJBlackEagle/shared-project-tools/commit/2c30caab5fa1e9d7daaf6858b08f419afed8a39c)), closes [#261](https://github.com/DJBlackEagle/shared-project-tools/issues/261)
+- **readme:** fix config description in README ([a508b52](https://github.com/DJBlackEagle/shared-project-tools/commit/a508b5260319b7e4d68dd37beea8bf963259aee2)), closes [#261](https://github.com/DJBlackEagle/shared-project-tools/issues/261)
+- **release:** fix release-it config ([1dd6acc](https://github.com/DJBlackEagle/shared-project-tools/commit/1dd6accaab637605f125e1746ce212b9cf238106))
+
+### Documentation
+
+- **cli:** update readme for the cli commands ([130e6b3](https://github.com/DJBlackEagle/shared-project-tools/commit/130e6b3317475a18e832a2666c01c8f89cb5e194)), closes [#250](https://github.com/DJBlackEagle/shared-project-tools/issues/250)
+- **readme:** update readme ([8a1fc66](https://github.com/DJBlackEagle/shared-project-tools/commit/8a1fc66a73db8b49b219e4ee4d41bd0c801c363a)), closes [#249](https://github.com/DJBlackEagle/shared-project-tools/issues/249)
+- **readme:** update README ([0797caa](https://github.com/DJBlackEagle/shared-project-tools/commit/0797caa480e7362e07fb151515bb8a1aecd42370))
+- **readme:** update README ([fe48e4f](https://github.com/DJBlackEagle/shared-project-tools/commit/fe48e4fbf6a3e61abdfeb6c2815ad48e3ecbd311)), closes [#261](https://github.com/DJBlackEagle/shared-project-tools/issues/261)
+
 ## [7.0.0](https://github.com/DJBlackEagle/shared-project-tools/compare/5.0.0...7.0.0) (2023-07-13)
 
 ### ⚠ BREAKING CHANGES
