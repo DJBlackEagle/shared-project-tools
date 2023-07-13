@@ -90,7 +90,7 @@ yarn add --dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.eslint.typescript.base,
+  ...sharedPrjTools.sharedConfig.eslint.typescript.base,
   parserOptions: {
     tsconfigRootDir: __dirname,
     extends: './tsconfig.eslint.json',
@@ -117,9 +117,9 @@ module.exports = {
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.eslint.typescript.base,
+  ...sharedPrjTools.sharedConfig.eslint.typescript.base,
   env: {
-    ...sharedPrjTools.config.eslint.typescript.base,
+    ...sharedPrjTools.sharedConfig.eslint.typescript.base,
     node: false,
   },
   parserOptions: {
@@ -160,7 +160,7 @@ yarn add --dev prettier
 ```js
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
-module.exports = sharedPrjTools.config.prettier.base;
+module.exports = sharedPrjTools.sharedConfig.prettier.base;
 ```
 
 4. Save file.
@@ -170,7 +170,7 @@ module.exports = sharedPrjTools.config.prettier.base;
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.prettier.base,
+  ...sharedPrjTools.sharedConfig.prettier.base,
   tabWidth: 4,
 };
 ```
@@ -219,7 +219,7 @@ yarn add --dev release-it @release-it/conventional-changelog
 ```js
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
-module.exports = sharedPrjTools.config.releaseIt.base;
+module.exports = sharedPrjTools.sharedConfig.releaseIt.base;
 ```
 
 4. Save file.
@@ -229,9 +229,9 @@ module.exports = sharedPrjTools.config.releaseIt.base;
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.releaseIt.base,
+  ...sharedPrjTools.sharedConfig.releaseIt.base,
   git: {
-    ...sharedPrjTools.config.releaseIt.base.git,
+    ...sharedPrjTools.sharedConfig.releaseIt.base.git,
     push: false,
   },
 };
@@ -267,7 +267,7 @@ yarn add --dev @commitlint/cli @commitlint/config-conventional
 ```js
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
-module.exports = sharedPrjTools.config.commitlint.base;
+module.exports = sharedPrjTools.sharedConfig.commitlint.base;
 ```
 
 4. Save file.
@@ -277,9 +277,9 @@ module.exports = sharedPrjTools.config.commitlint.base;
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.commitlint.base,
+  ...sharedPrjTools.sharedConfig.commitlint.base,
   rules: {
-    ...sharedPrjTools.config.commitlint.base.rules,
+    ...sharedPrjTools.sharedConfig.commitlint.base.rules,
     'header-max-length': [2, 'always', 250],
   },
 };
@@ -321,7 +321,7 @@ yarn add --dev nano-staged
 ```js
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
-module.exports = sharedPrjTools.config.nanoStaged.base;
+module.exports = sharedPrjTools.sharedConfig.nanoStaged.base;
 ```
 
 4. Save file.
@@ -331,7 +331,7 @@ module.exports = sharedPrjTools.config.nanoStaged.base;
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.nanoStaged.base,
+  ...sharedPrjTools.sharedConfig.nanoStaged.base,
   '*.{xml}': (api) => `validate-xml.sh ${api.filenames.join(' ')}`,
 };
 ```
@@ -372,7 +372,7 @@ yarn add --dev lint-staged
 ```js
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
-module.exports = sharedPrjTools.config.lintStaged.base;
+module.exports = sharedPrjTools.sharedConfig.lintStaged.base;
 ```
 
 4. Save file.
@@ -382,7 +382,7 @@ module.exports = sharedPrjTools.config.lintStaged.base;
 const sharedPrjTools = require('@djblackeagle/shared-project-tools');
 
 module.exports = {
-  ...sharedPrjTools.config.lintStaged.base,
+  ...sharedPrjTools.sharedConfig.lintStaged.base,
   '*.{xml}': (api) => `validate-xml.sh ${api.filenames.join(' ')}`,
 };
 ```

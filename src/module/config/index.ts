@@ -5,4 +5,4 @@ import { nanoStaged } from './nano-staged';
 import { prettier } from './prettier';
 import { releaseIt } from './release-it';
 
-export const config = { commitlint, eslint, lintStaged, nanoStaged, prettier, releaseIt };
+export const sharedConfig = { commitlint, eslint, lintStaged, nanoStaged, prettier, releaseIt };
