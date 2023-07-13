@@ -18,7 +18,7 @@
 
 # What is @djblackeagle/shared-project-tools
 
-@djblackeagle/shared-project-tools shares configuration of commitlint, eslint, nano-staged, prettier and release-it.
+@djblackeagle/shared-project-tools shares configuration of commitlint, eslint, nano-staged, prettier and release-it. And share some tools.
 
 [[Go to top](#welcome-to-djblackeagleshared-project-tools)]
 
