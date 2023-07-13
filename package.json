@@ -23,7 +23,8 @@
   },
   "main": "dist/src/index.js",
   "bin": {
-    "djbe-shared-project-tools": "bin/cli.js"
+    "djbe-shared-project-tools": "bin/cli.js",
+    "djbe-spt": "bin/cli.js"
   },
   "scripts": {
     "clean": "yarn run clean:build && yarn run clean:additional",

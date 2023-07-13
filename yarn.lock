@@ -292,6 +292,7 @@ __metadata:
     typescript: ^5.1.6
   bin:
     djbe-shared-project-tools: bin/cli.js
+    djbe-spt: bin/cli.js
   languageName: unknown
   linkType: soft
 
