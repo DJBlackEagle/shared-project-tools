@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/8.0.2...8.1.0) (2023-08-11)
+
+### Features
+
+- **cli-git:** add git pull command, before the check of gone branches is running ([ffefa9d](https://github.com/DJBlackEagle/shared-project-tools/commit/ffefa9dff7f9e40c63e50c0dfe80f3a0c1e030e4)), closes [#292](https://github.com/DJBlackEagle/shared-project-tools/issues/292)
+
 ## [8.0.2](https://github.com/DJBlackEagle/shared-project-tools/compare/8.0.1...8.0.2) (2023-08-11)
 
 ## [8.0.1](https://github.com/DJBlackEagle/shared-project-tools/compare/8.0.0...8.0.1) (2023-07-25)
