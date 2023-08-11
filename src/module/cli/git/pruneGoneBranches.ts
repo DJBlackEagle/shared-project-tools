@@ -1,7 +1,7 @@
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-console */
 import { resources } from '../../../resources';
-import { createInstance, fetch, getBranchLocal, isBranchGone } from './functions';
+import { createInstance, fetch, getBranchLocal, isBranchGone, pull } from './functions';
 
 type PruneGoneBranchesOptions = {
   dryDrun: boolean;
@@ -23,7 +23,20 @@ async function pruneGoneBranches(param: PruneGoneBranchesOptions | null): Promis
     return false;
   }
 
-  await fetch(client);
+  const resultPull = await pull(client);
+  if (!resultPull) {
+    console.log('Git pull failed.'.red);
+
+    return false;
+  }
+
+  const resultFetch = await fetch(client);
+  if (!resultFetch) {
+    console.log('Git fetch failed.'.red);
+
+    return false;
+  }
+
   const localBranches = await getBranchLocal(client);
   if (!localBranches) {
     console.log('Get local branches failed.'.red);
