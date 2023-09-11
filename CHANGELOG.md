@@ -1,5 +1,7 @@
 # Changelog
 
+## [8.1.1](https://github.com/DJBlackEagle/shared-project-tools/compare/8.1.0...8.1.1) (2023-09-11)
+
 ## [8.1.0](https://github.com/DJBlackEagle/shared-project-tools/compare/8.0.2...8.1.0) (2023-08-11)
 
 ### Features
