@@ -336,7 +336,7 @@ __metadata:
     "@commitlint/cli": ^17.7.1
     "@commitlint/config-conventional": ^17.7.0
     "@commitlint/cz-commitlint": ^17.7.1
-    "@release-it/conventional-changelog": ^7.0.1
+    "@release-it/conventional-changelog": ^7.0.2
     "@typescript-eslint/eslint-plugin": ^6.7.0
     "@typescript-eslint/parser": ^6.7.0
     colors: ^1.4.0
@@ -711,17 +711,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@release-it/conventional-changelog@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "@release-it/conventional-changelog@npm:7.0.1"
+"@release-it/conventional-changelog@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "@release-it/conventional-changelog@npm:7.0.2"
   dependencies:
     concat-stream: ^2.0.0
-    conventional-changelog: ^5.0.0
+    conventional-changelog: ^5.1.0
     conventional-recommended-bump: ^8.0.0
     semver: ^7.5.4
   peerDependencies:
     release-it: ^16.0.0
-  checksum: ddec799aac03bd1d365b5116e057279ad8a45da264fed3f784ed415797cb7ab15c340b65d47376d5dce630c8792d4590946f59f8056f1f20e74ac4903dc355c4
+  checksum: d379da19a7e145e54dfb315deca37e42eb98b9f6ab58ae79ad934c4bfd83b9f1cc2a528f79e12ac4fb7f8253177780f64c7ce378777171285055c19dbc3067e2
   languageName: node
   linkType: hard
 
@@ -1815,7 +1815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog@npm:^5.0.0":
+"conventional-changelog@npm:^5.1.0":
   version: 5.1.0
   resolution: "conventional-changelog@npm:5.1.0"
   dependencies:
