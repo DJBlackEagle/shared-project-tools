@@ -1,5 +1,6 @@
 name: '🔥 Suggestion for Improving Performance'
 description: 'I have a suggestion that might improve the performance ✨'
+title: '[PERF] '
 assignees:
   - 'DJBlackEagle'
 labels: ['enhancement', 'performance']

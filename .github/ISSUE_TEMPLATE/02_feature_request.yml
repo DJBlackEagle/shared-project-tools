@@ -1,5 +1,6 @@
 name: '🚀 Feature Request'
 description: 'I have a suggestion 😻!'
+title: '[FEAT] '
 assignees:
   - 'DJBlackEagle'
 labels: ['feature']

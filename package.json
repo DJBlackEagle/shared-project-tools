@@ -43,7 +43,7 @@
     "git:status": "echo \"Show status of the files.\" && git status",
     "git:commit": "echo \"Commit staged files.\" && cz",
     "git:push": "echo \"Push all unpushed commits.\" && git push",
-    "git:clean": "sh .scripts/pruneBranches.sh",
+    "git:clean": "ts-node src/cli git pruneGoneBranches",
     "ncu": "ncu",
     "ncu:doctor": "ncu --doctor",
     "ncu:interactive": "ncu --interactive --format group",

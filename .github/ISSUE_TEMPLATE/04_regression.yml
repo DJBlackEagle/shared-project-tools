@@ -1,5 +1,6 @@
 name: '💥 Regression'
 description: 'Report an unexpected behavior while upgrading your applications dependencies!'
+title: '[REGRESSION] '
 assignees:
   - 'DJBlackEagle'
 labels: ['needs triage']
