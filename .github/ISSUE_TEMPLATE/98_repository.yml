@@ -1,5 +1,6 @@
 name: '💾 Repository'
 description: 'Something, which depends on this repository.'
+title: '[REPO] '
 assignees:
   - 'DJBlackEagle'
 labels: ['repository']

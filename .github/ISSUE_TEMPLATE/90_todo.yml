@@ -1,6 +1,6 @@
 name: '🎫 Todo'
 description: 'A ToDo list, with a checklist. Its for the developer this issue, to make a checklist what todo on other issue.'
-title: '[TODO]: '
+title: '[TODO] '
 assignees:
   - 'DJBlackEagle'
 labels: ['todo']
