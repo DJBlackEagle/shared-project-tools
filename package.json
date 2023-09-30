@@ -82,7 +82,7 @@
     "simple-git": "^3.20.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
+    "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "@commitlint/cz-commitlint": "^17.7.1",
     "@release-it/conventional-changelog": "^7.0.2",
