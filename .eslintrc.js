@@ -113,7 +113,7 @@ module.exports = {
     'prefer-const': 'error',
     'prefer-template': 'error',
     'prettier/prettier': ['error', prettier],
-    quotes: ['error', 'single'],
+    quotes: ['error', 'single', { avoidEscape: true }],
     'semi-style': ['error', 'last'],
     'use-isnan': 'error',
     'valid-typeof': ['error', { requireStringLiterals: true }],
