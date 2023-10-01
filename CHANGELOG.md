@@ -1,5 +1,11 @@
 # Changelog
 
+## [8.1.3](https://github.com/DJBlackEagle/shared-project-tools/compare/8.1.2...8.1.3) (2023-10-01)
+
+### Bug Fixes
+
+- **ESLint:** allow to avoid escape strings ([4cfa367](https://github.com/DJBlackEagle/shared-project-tools/commit/4cfa3678d70a5a7338f18d397123cf00be2edf9b)), closes [#332](https://github.com/DJBlackEagle/shared-project-tools/issues/332)
+
 ## [8.1.2](https://github.com/DJBlackEagle/shared-project-tools/compare/8.1.1...8.1.2) (2023-09-23)
 
 ## [8.1.1](https://github.com/DJBlackEagle/shared-project-tools/compare/8.1.0...8.1.1) (2023-09-11)
