@@ -83,7 +83,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/config-conventional": "^18.1.0",
     "@commitlint/cz-commitlint": "^17.7.2",
     "@release-it/conventional-changelog": "^7.0.2",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
