@@ -79,7 +79,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^11.1.0",
-    "simple-git": "^3.21.0"
+    "simple-git": "^3.22.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
