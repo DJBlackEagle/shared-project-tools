@@ -109,20 +109,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cz-commitlint@npm:^18.6.0":
-  version: 18.6.0
-  resolution: "@commitlint/cz-commitlint@npm:18.6.0"
+"@commitlint/config-validator@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/config-validator@npm:18.6.1"
   dependencies:
-    "@commitlint/ensure": ^18.6.0
-    "@commitlint/load": ^18.6.0
-    "@commitlint/types": ^18.6.0
+    "@commitlint/types": ^18.6.1
+    ajv: ^8.11.0
+  checksum: 4e5b5ba01d7f11f1a9593ac97fc1d53f432696c2996135bd3522b068afd83a32dc76ffaadc776e67bfb6c4ee4233e251a1d0b2e8f70a66abe178bacc77d93ee2
+  languageName: node
+  linkType: hard
+
+"@commitlint/cz-commitlint@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/cz-commitlint@npm:18.6.1"
+  dependencies:
+    "@commitlint/ensure": ^18.6.1
+    "@commitlint/load": ^18.6.1
+    "@commitlint/types": ^18.6.1
     chalk: ^4.1.0
     lodash.isplainobject: ^4.0.6
     word-wrap: ^1.2.5
   peerDependencies:
     commitizen: ^4.0.3
     inquirer: ^8.0.0
-  checksum: ed4a56cc0d0082c5f8fa4336107eabf840f309faf12baeb42a0f748d4e94b50ef38311e4d6c4519e64b1826dafa6ad3f0c30da4018b92561a5fd729e3c04126f
+  checksum: fbbaebae0de634a3814e55b9035e7ee30ec2b8f9309d44ceccfb55bea4526922a9956d59c90d5fc9654dd530cc6a916d1ba66be268e2a0d0fa5a1b42ff538a27
   languageName: node
   linkType: hard
 
@@ -140,6 +150,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/ensure@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/ensure@npm:18.6.1"
+  dependencies:
+    "@commitlint/types": ^18.6.1
+    lodash.camelcase: ^4.3.0
+    lodash.kebabcase: ^4.1.1
+    lodash.snakecase: ^4.1.1
+    lodash.startcase: ^4.4.0
+    lodash.upperfirst: ^4.3.1
+  checksum: 0a5c284dcc72bd3faf592fcd380a637446e33d12d38e4d289c98cb8896e3ec43b65ff2ac76ab5a947373895846d0c16df60b4bebd6eca67c1f704c230fde844d
+  languageName: node
+  linkType: hard
+
 "@commitlint/execute-rule@npm:^17.4.0":
   version: 17.4.0
   resolution: "@commitlint/execute-rule@npm:17.4.0"
@@ -151,6 +175,13 @@ __metadata:
   version: 18.4.4
   resolution: "@commitlint/execute-rule@npm:18.4.4"
   checksum: f09d966479a7d7521e095b1a78ae8b357a722e4fe62250a4c4a6834825fff3ccaad3991be0bc2c6ed3c88adfa3e5a3f57d794cabb5d0b84228ebc3b0926d4ce1
+  languageName: node
+  linkType: hard
+
+"@commitlint/execute-rule@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/execute-rule@npm:18.6.1"
+  checksum: 4bb7945b905012358cdd25f840473a702a9ddfbfec3b36620c1ceeeeed18ac24c4c137366bc7aa1fb3c6dea3873695949ea2e5cf3b3381feca2407227394a5cd
   languageName: node
   linkType: hard
 
@@ -227,6 +258,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/load@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/load@npm:18.6.1"
+  dependencies:
+    "@commitlint/config-validator": ^18.6.1
+    "@commitlint/execute-rule": ^18.6.1
+    "@commitlint/resolve-extends": ^18.6.1
+    "@commitlint/types": ^18.6.1
+    chalk: ^4.1.0
+    cosmiconfig: ^8.3.6
+    cosmiconfig-typescript-loader: ^5.0.0
+    lodash.isplainobject: ^4.0.6
+    lodash.merge: ^4.6.2
+    lodash.uniq: ^4.5.0
+    resolve-from: ^5.0.0
+  checksum: 383a9a59c5b291fdf369735731b226b48aadd455adb1ba4353e90c5fa51d9f836242806c58211c248e6a58a1df89975e91f706b8629e023dd88079910f4508ef
+  languageName: node
+  linkType: hard
+
 "@commitlint/message@npm:^18.4.4":
   version: 18.4.4
   resolution: "@commitlint/message@npm:18.4.4"
@@ -285,6 +335,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/resolve-extends@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/resolve-extends@npm:18.6.1"
+  dependencies:
+    "@commitlint/config-validator": ^18.6.1
+    "@commitlint/types": ^18.6.1
+    import-fresh: ^3.0.0
+    lodash.mergewith: ^4.6.2
+    resolve-from: ^5.0.0
+    resolve-global: ^1.0.0
+  checksum: d9077b4bebae11ef3f8257894718eaae46f304ccf867f41d8e1a53862027e193a4ea269dbe8939ec3cd5d6c2793e26bca2ead5d3d4beced2078f7ae5270c4f1f
+  languageName: node
+  linkType: hard
+
 "@commitlint/rules@npm:^18.6.0":
   version: 18.6.0
   resolution: "@commitlint/rules@npm:18.6.0"
@@ -332,6 +396,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/types@npm:^18.6.1":
+  version: 18.6.1
+  resolution: "@commitlint/types@npm:18.6.1"
+  dependencies:
+    chalk: ^4.1.0
+  checksum: fb37bdefd25e05e353eb568b26a7dd5aff488f1e3fbfc42080bde49ae6834ffde996acac4b7767df650b38e03692889b636b8290465823cd27276662d3b471cf
+  languageName: node
+  linkType: hard
+
 "@cspotcode/source-map-support@npm:^0.8.0":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -347,7 +420,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^18.6.0
     "@commitlint/config-conventional": ^18.6.0
-    "@commitlint/cz-commitlint": ^18.6.0
+    "@commitlint/cz-commitlint": ^18.6.1
     "@release-it/conventional-changelog": ^8.0.1
     "@typescript-eslint/eslint-plugin": ^6.21.0
     "@typescript-eslint/parser": ^7.0.2
