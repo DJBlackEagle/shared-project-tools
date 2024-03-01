@@ -79,13 +79,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^19.0.0":
-  version: 19.0.0
-  resolution: "@commitlint/config-conventional@npm:19.0.0"
+"@commitlint/config-conventional@npm:^19.0.3":
+  version: 19.0.3
+  resolution: "@commitlint/config-conventional@npm:19.0.3"
   dependencies:
-    "@commitlint/types": ^19.0.0
+    "@commitlint/types": ^19.0.3
     conventional-changelog-conventionalcommits: ^7.0.2
-  checksum: 278331e55d86e5f9e06dbb41eaf7e728df08a2dde3dad08165ed08cc6244a200567a7c5395d89db86e3088f8ba1a3f27265699a93c116c6810dd12b745688a9d
+  checksum: 35fc2f8aba87196bf3a50f4d2c851ae462a5f993f0b2ea9baacd381d7db58dce07291874fa32b059ee6b88058acd44410ec7cf1b97519d9b2068f2cb532d0ed4
   languageName: node
   linkType: hard
 
@@ -331,6 +331,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/types@npm:^19.0.3":
+  version: 19.0.3
+  resolution: "@commitlint/types@npm:19.0.3"
+  dependencies:
+    "@types/conventional-commits-parser": ^5.0.0
+    chalk: ^5.3.0
+  checksum: 44e67f4861f9b137f43a441f8ab255676b7a276c82ca46ba7846ca1057d170af92a87d3e2a1378713dc4e33a68c8af513683cb96dcd29544e48e2c825109ea6f
+  languageName: node
+  linkType: hard
+
 "@cspotcode/source-map-support@npm:^0.8.0":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -345,7 +355,7 @@ __metadata:
   resolution: "@djblackeagle/shared-project-tools@workspace:."
   dependencies:
     "@commitlint/cli": ^19.0.0
-    "@commitlint/config-conventional": ^19.0.0
+    "@commitlint/config-conventional": ^19.0.3
     "@commitlint/cz-commitlint": ^19.0.0
     "@release-it/conventional-changelog": ^8.0.1
     "@typescript-eslint/eslint-plugin": ^7.1.0
@@ -766,6 +776,15 @@ __metadata:
   version: 1.0.4
   resolution: "@tsconfig/node16@npm:1.0.4"
   checksum: 202319785901f942a6e1e476b872d421baec20cf09f4b266a1854060efbf78cde16a4d256e8bc949d31e6cd9a90f1e8ef8fb06af96a65e98338a2b6b0de0a0ff
+  languageName: node
+  linkType: hard
+
+"@types/conventional-commits-parser@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "@types/conventional-commits-parser@npm:5.0.0"
+  dependencies:
+    "@types/node": "*"
+  checksum: 88013c53adccaf359a429412c5d835990a88be33218f01f85eb04cf839a7d5bef51dd52b83a3032b00153e9f3ce4a7e84ff10b0a1f833c022c5e999b00eef24c
   languageName: node
   linkType: hard
 
