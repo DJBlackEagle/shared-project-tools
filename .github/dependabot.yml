@@ -10,7 +10,7 @@ updates:
     directory: '/'
     schedule:
       timezone: 'Europe/Berlin'
-      interval: 'monthly'
+      interval: 'weekly'
     assignees:
       - 'djblackeagle'
     commit-message:
@@ -25,7 +25,7 @@ updates:
     directory: '/'
     schedule:
       timezone: 'Europe/Berlin'
-      interval: 'monthly'
+      interval: 'weekly'
     assignees:
       - 'djblackeagle'
     commit-message:
