@@ -87,7 +87,7 @@
     "@commitlint/cz-commitlint": "^19.4.0",
     "@release-it/conventional-changelog": "^9.0.3",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
-    "@typescript-eslint/parser": "^7.14.1",
+    "@typescript-eslint/parser": "^8.18.0",
     "commitizen": "^4.3.0",
     "dotenv-cli": "^7.4.4",
     "eslint": "^8.57.0",
