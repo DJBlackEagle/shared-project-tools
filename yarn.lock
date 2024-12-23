@@ -440,7 +440,7 @@ __metadata:
     colors: ^1.4.0
     commander: ^12.1.0
     commitizen: ^4.3.0
-    dotenv-cli: ^7.4.4
+    dotenv-cli: ^8.0.0
     eslint: ^8.57.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^18.0.0
@@ -2308,9 +2308,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:^7.4.4":
-  version: 7.4.4
-  resolution: "dotenv-cli@npm:7.4.4"
+"dotenv-cli@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "dotenv-cli@npm:8.0.0"
   dependencies:
     cross-spawn: ^7.0.6
     dotenv: ^16.3.0
@@ -2318,7 +2318,7 @@ __metadata:
     minimist: ^1.2.6
   bin:
     dotenv: cli.js
-  checksum: 04d4459a21c32526a79609ce98f566e7978f359f4d98f5d6e35f43bfdc0f35c75330e25d7a5f84391c0557164c48f46adb031dcc8b9bf5121b45ed15562a09f1
+  checksum: 9c88aa3b9976158f6c8d02918d70c3fac3ac0712c24c85db33e51eb93eb0659f86393aee233d2dd1042780ddd500f35fae4ac38f1763bbf6ce0f3f8046bc88e6
   languageName: node
   linkType: hard
 
