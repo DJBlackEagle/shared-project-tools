@@ -100,7 +100,7 @@
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "prettier": "^3.4.2",
-    "release-it": "^17.11.0",
+    "release-it": "^18.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }
