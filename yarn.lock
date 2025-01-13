@@ -378,7 +378,7 @@ __metadata:
     husky: ^9.1.7
     nano-staged: ^0.8.0
     prettier: ^3.4.2
-    release-it: ^18.0.0
+    release-it: ^18.1.1
     simple-git: ^3.25.0
     ts-node: ^10.9.2
     typescript: ^5.7.2
@@ -5300,9 +5300,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "release-it@npm:18.0.0"
+"release-it@npm:^18.1.1":
+  version: 18.1.1
+  resolution: "release-it@npm:18.1.1"
   dependencies:
     "@iarna/toml": 2.2.5
     "@octokit/rest": 21.0.2
@@ -5331,7 +5331,7 @@ __metadata:
     yargs-parser: 21.1.1
   bin:
     release-it: bin/release-it.js
-  checksum: a68f0e925215b817b1491f79dd8a56a6afacb55acc44a5323362e60ccc3075a70fe8391c0bbc357fbfc76fc7e7c462da671e61f48f5470d5aec1c54c3fd55543
+  checksum: 9db18f4821b0c60dca1ccf0d991b27c46a5eb692134ec477245ab935842b6c75f12f9e6ddd35bed2d5999c23d9983cb39f4970ed801aa5d1e1f24106c19a18b8
   languageName: node
   linkType: hard
 
