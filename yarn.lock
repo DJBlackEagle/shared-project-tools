@@ -378,7 +378,7 @@ __metadata:
     husky: ^9.1.7
     nano-staged: ^0.8.0
     prettier: ^3.4.2
-    release-it: ^18.1.1
+    release-it: ^18.1.2
     simple-git: ^3.25.0
     ts-node: ^10.9.2
     typescript: ^5.7.3
@@ -5300,9 +5300,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^18.1.1":
-  version: 18.1.1
-  resolution: "release-it@npm:18.1.1"
+"release-it@npm:^18.1.2":
+  version: 18.1.2
+  resolution: "release-it@npm:18.1.2"
   dependencies:
     "@iarna/toml": 2.2.5
     "@octokit/rest": 21.0.2
@@ -5324,14 +5324,14 @@ __metadata:
     proxy-agent: 6.5.0
     semver: 7.6.3
     shelljs: 0.8.5
-    undici: 6.21.0
+    undici: 6.21.1
     update-notifier: 7.3.1
     url-join: 5.0.0
     wildcard-match: 5.1.4
     yargs-parser: 21.1.1
   bin:
     release-it: bin/release-it.js
-  checksum: 9db18f4821b0c60dca1ccf0d991b27c46a5eb692134ec477245ab935842b6c75f12f9e6ddd35bed2d5999c23d9983cb39f4970ed801aa5d1e1f24106c19a18b8
+  checksum: 99b13f60b97ff5b68fb4a7a0cbda156b1e13ec1dcc3550bcca796fbe02c47dc792ce5a3c46d1f50cdd12ab13e147fbb6af7a0b82b0c32b78e2ac8e7841547e54
   languageName: node
   linkType: hard
 
@@ -6322,10 +6322,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:6.21.0":
-  version: 6.21.0
-  resolution: "undici@npm:6.21.0"
-  checksum: bc2eb26c4b010a4f816314d48d4529f62b1116405097b2c5f0ac68247c56049a857d11a9f05b237818f04ce4f51d6f5e8d6fcc6aae2ab816c2b7318a9706727c
+"undici@npm:6.21.1":
+  version: 6.21.1
+  resolution: "undici@npm:6.21.1"
+  checksum: 2efc52f77224754a2efa7cb6459829f3c93c8321d17e76f574a904b353783d95073b6116f5b15637c4845d98c9dc5a019b809cb9d63b3529267e7727c49f6996
   languageName: node
   linkType: hard
 
