@@ -372,7 +372,7 @@ __metadata:
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^18.0.0
     eslint-config-prettier: ^10.0.1
-    eslint-import-resolver-typescript: ^3.7.0
+    eslint-import-resolver-typescript: ^3.8.0
     eslint-plugin-import: ^2.29.1
     eslint-plugin-prettier: ^5.2.3
     husky: ^9.1.7
@@ -2641,18 +2641,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^3.7.0":
-  version: 3.7.0
-  resolution: "eslint-import-resolver-typescript@npm:3.7.0"
+"eslint-import-resolver-typescript@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "eslint-import-resolver-typescript@npm:3.8.0"
   dependencies:
     "@nolyfill/is-core-module": 1.0.39
     debug: ^4.3.7
     enhanced-resolve: ^5.15.0
-    fast-glob: ^3.3.2
-    get-tsconfig: ^4.7.5
+    get-tsconfig: ^4.10.0
     is-bun-module: ^1.0.2
-    is-glob: ^4.0.3
     stable-hash: ^0.0.4
+    tinyglobby: ^0.2.10
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
@@ -2662,7 +2661,7 @@ __metadata:
       optional: true
     eslint-plugin-import-x:
       optional: true
-  checksum: e24659fbd91957c9db8de72243a6ffcf891ffd1175bca54d6993a9ddecc352e76d512c7ee22a48ae7d3ec1ae4c492fd2ab649cde636a993f4a42bf4d1ae4d34a
+  checksum: 866f7eba778ca7ddbd99a468c7ad94b132d25b5c0426123da242159f4e9a07de0963fb8d68f71d4ddab9a595005acd36b79453efb91370ddf0449f12a551f62b
   languageName: node
   linkType: hard
 
@@ -2988,6 +2987,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fdir@npm:^6.4.2":
+  version: 6.4.3
+  resolution: "fdir@npm:6.4.3"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: fa53e13c63e8c14add5b70fd47e28267dd5481ebbba4b47720ec25aae7d10a800ef0f2e33de350faaf63c10b3d7b64138925718832220d593f75e724846c736d
+  languageName: node
+  linkType: hard
+
 "figures@npm:^3.0.0":
   version: 3.2.0
   resolution: "figures@npm:3.2.0"
@@ -3235,12 +3246,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-tsconfig@npm:^4.7.5":
-  version: 4.8.1
-  resolution: "get-tsconfig@npm:4.8.1"
+"get-tsconfig@npm:^4.10.0":
+  version: 4.10.0
+  resolution: "get-tsconfig@npm:4.10.0"
   dependencies:
     resolve-pkg-maps: ^1.0.0
-  checksum: 12df01672e691d2ff6db8cf7fed1ddfef90ed94a5f3d822c63c147a26742026d582acd86afcd6f65db67d809625d17dd7f9d34f4d3f38f69bc2f48e19b2bdd5b
+  checksum: cebf14d38ecaa9a1af25fc3f56317402a4457e7e20f30f52a0ab98b4c85962a259f75065e483824f73a1ce4a8e4926c149ead60f0619842b8cd13b94e15fbdec
   languageName: node
   linkType: hard
 
@@ -5108,6 +5119,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"picomatch@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "picomatch@npm:4.0.2"
+  checksum: a7a5188c954f82c6585720e9143297ccd0e35ad8072231608086ca950bee672d51b0ef676254af0788205e59bd4e4deb4e7708769226bed725bf13370a7d1464
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -6031,6 +6049,16 @@ __metadata:
   version: 0.3.1
   resolution: "tinyexec@npm:0.3.1"
   checksum: 691b531d464bdc09eeba934e43d8ac2a74c9d22a4bec9cd7f4991375c64e22712f7e5a95ba243a9369a478afd34d41171359012a2248ea49615cd2816ab12959
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:^0.2.10":
+  version: 0.2.10
+  resolution: "tinyglobby@npm:0.2.10"
+  dependencies:
+    fdir: ^6.4.2
+    picomatch: ^4.0.2
+  checksum: 7e2ffe262ebc149036bdef37c56b32d02d52cf09efa7d43dbdab2ea3c12844a4da881058835ce4c74d1891190e5ad5ec5133560a11ec8314849b68ad0d99d3f4
   languageName: node
   linkType: hard
 
