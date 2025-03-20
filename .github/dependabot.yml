@@ -12,7 +12,7 @@ updates:
       timezone: 'Europe/Berlin'
       interval: 'weekly'
     assignees:
-      - 'djblackeagle'
+      - 'DJBlackEagle'
     commit-message:
       prefix: 'chore(github)'
     open-pull-requests-limit: 5
@@ -27,7 +27,7 @@ updates:
       timezone: 'Europe/Berlin'
       interval: 'weekly'
     assignees:
-      - 'djblackeagle'
+      - 'DJBlackEagle'
     commit-message:
       prefix: 'chore(deps)'
     open-pull-requests-limit: 20
