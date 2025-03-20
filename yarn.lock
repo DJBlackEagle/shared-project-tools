@@ -74,13 +74,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^19.7.1":
-  version: 19.7.1
-  resolution: "@commitlint/config-conventional@npm:19.7.1"
+"@commitlint/config-conventional@npm:^19.8.0":
+  version: 19.8.0
+  resolution: "@commitlint/config-conventional@npm:19.8.0"
   dependencies:
-    "@commitlint/types": ^19.5.0
+    "@commitlint/types": ^19.8.0
     conventional-changelog-conventionalcommits: ^7.0.2
-  checksum: b80fbeeb1592f626a20abb5761697dd49f989aae7873a89ad93344287241451cd9b4d661fd139e32b366eb75c5cdcce42e17840d6b8d747bcce91a5c6f1c88d2
+  checksum: 9c2cd7d8ddceeaf87acc2538e1c2ce486e1f1dae239b33dede01daf38d7d3c73abd1fc2e732bd45e637e4f2caaac5f405d16a8255f3df1f15a710546fe791f01
   languageName: node
   linkType: hard
 
@@ -432,7 +432,7 @@ __metadata:
   resolution: "@djblackeagle/shared-project-tools@workspace:."
   dependencies:
     "@commitlint/cli": ^19.7.1
-    "@commitlint/config-conventional": ^19.7.1
+    "@commitlint/config-conventional": ^19.8.0
     "@commitlint/cz-commitlint": ^19.8.0
     "@release-it/conventional-changelog": ^10.0.0
     "@typescript-eslint/eslint-plugin": ^7.15.0
