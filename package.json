@@ -99,7 +99,7 @@
     "eslint-plugin-prettier": "^5.5.3",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "release-it": "^19.0.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
