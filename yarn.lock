@@ -367,7 +367,7 @@ __metadata:
     colors: ^1.4.0
     commander: ^13.1.0
     commitizen: ^4.3.0
-    dotenv-cli: ^9.0.0
+    dotenv-cli: ^10.0.0
     eslint: ^8.57.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^18.0.0
@@ -2671,28 +2671,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "dotenv-cli@npm:9.0.0"
+"dotenv-cli@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv-cli@npm:10.0.0"
   dependencies:
     cross-spawn: ^7.0.6
     dotenv: ^17.1.0
-    dotenv-expand: ^10.0.0
+    dotenv-expand: ^11.0.0
     minimist: ^1.2.6
   bin:
     dotenv: cli.js
-  checksum: 84ddd6dd520eb2959a2ec6e6a054f90e4a9246e13b5839b24d5bc809ee28a6d31bad7b6d34015ae569cc66e741955256150dbcee3820c1aa209bb1fa664f2f56
+  checksum: 8a49b24dff88731531ec13074e721073dbb38ad0953ff8b644136b2faa212261751b655b2d98c077501674585a30c81ac06a120a862149fa7658cde57f2ca4c7
   languageName: node
   linkType: hard
 
-"dotenv-expand@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "dotenv-expand@npm:10.0.0"
-  checksum: 2a38b470efe0abcb1ac8490421a55e1d764dc9440fd220942bce40965074f3fb00b585f4346020cb0f0f219966ee6b4ee5023458b3e2953fe5b3214de1b314ee
+"dotenv-expand@npm:^11.0.0":
+  version: 11.0.7
+  resolution: "dotenv-expand@npm:11.0.7"
+  dependencies:
+    dotenv: ^16.4.5
+  checksum: 58455ad9ffedbf6180b49f8f35596da54f10b02efcaabcba5400363f432e1da057113eee39b42365535da41df1e794d54a4aa67b22b37c41686c3dce4e6a28c5
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.6.1":
+"dotenv@npm:^16.4.5, dotenv@npm:^16.6.1":
   version: 16.6.1
   resolution: "dotenv@npm:16.6.1"
   checksum: e8bd63c9a37f57934f7938a9cf35de698097fadf980cb6edb61d33b3e424ceccfe4d10f37130b904a973b9038627c2646a3365a904b4406514ea94d7f1816b69
