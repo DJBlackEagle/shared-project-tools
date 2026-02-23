@@ -74,13 +74,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^19.8.0":
-  version: 19.8.0
-  resolution: "@commitlint/config-conventional@npm:19.8.0"
+"@commitlint/config-conventional@npm:^20.4.2":
+  version: 20.4.2
+  resolution: "@commitlint/config-conventional@npm:20.4.2"
   dependencies:
-    "@commitlint/types": ^19.8.0
-    conventional-changelog-conventionalcommits: ^7.0.2
-  checksum: 9c2cd7d8ddceeaf87acc2538e1c2ce486e1f1dae239b33dede01daf38d7d3c73abd1fc2e732bd45e637e4f2caaac5f405d16a8255f3df1f15a710546fe791f01
+    "@commitlint/types": ^20.4.0
+    conventional-changelog-conventionalcommits: ^9.1.0
+  checksum: 1d94c0eb307caa47eddb7f70815cc75073afe559306d0501ce728f9470ad20a7cceeb0e1764d2e8e9e35fb25d59c2ea5dde0fe6aeb2a5e69cb020e472ce9ef09
   languageName: node
   linkType: hard
 
@@ -327,6 +327,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/types@npm:^20.4.0":
+  version: 20.4.0
+  resolution: "@commitlint/types@npm:20.4.0"
+  dependencies:
+    conventional-commits-parser: ^6.2.1
+    picocolors: ^1.1.1
+  checksum: aff0e6d33eb3191fad3c20d7d46e282ae3dacca52a24f372ac880f0231c859a26726d25565246ea34b67aa9ac1db55f12ef3d635bd6fe9e68cb34fa0a7c5fe47
+  languageName: node
+  linkType: hard
+
 "@conventional-changelog/git-client@npm:^1.0.0":
   version: 1.0.1
   resolution: "@conventional-changelog/git-client@npm:1.0.1"
@@ -359,7 +369,7 @@ __metadata:
   resolution: "@djblackeagle/shared-project-tools@workspace:."
   dependencies:
     "@commitlint/cli": ^19.8.0
-    "@commitlint/config-conventional": ^19.8.0
+    "@commitlint/config-conventional": ^20.4.2
     "@commitlint/cz-commitlint": ^19.8.0
     "@release-it/conventional-changelog": ^10.0.0
     "@typescript-eslint/eslint-plugin": ^7.15.0
@@ -2149,21 +2159,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "conventional-changelog-conventionalcommits@npm:7.0.2"
-  dependencies:
-    compare-func: ^2.0.0
-  checksum: e17ac5970ae09d6e9b0c3a7edaed075b836c0c09c34c514589cbe06554f46ed525067fa8150a8467cc03b1cf9af2073e7ecf48790d4f5ea399921b1cbe313711
-  languageName: node
-  linkType: hard
-
 "conventional-changelog-conventionalcommits@npm:^8.0.0":
   version: 8.0.0
   resolution: "conventional-changelog-conventionalcommits@npm:8.0.0"
   dependencies:
     compare-func: ^2.0.0
   checksum: af80a3294ec833b6ca6b13874c275952391319dd0ebb771dbcf0b837a2f8504c197e894a3fc5def44574a04daa038a94cae8d00f8222e843bc788b6911a1eff4
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "conventional-changelog-conventionalcommits@npm:9.1.0"
+  dependencies:
+    compare-func: ^2.0.0
+  checksum: 9f40dc7c8b96cb44d07b835f19ea76506b151be1f17558d57c7f266c5f76d7c64d1d4c3b39f16ba5a8a1934b76835235f00e2f1d25baa1f3ddf01b52a162bd44
   languageName: node
   linkType: hard
 
@@ -2299,6 +2309,17 @@ __metadata:
   bin:
     conventional-commits-parser: dist/cli/index.js
   checksum: 2331cb4559f610828857c353adec942cebe3f5ba7d050ad3b98406933593c42b48b407e95738ab7cafee2240c945495bb04fa26bbf6982fcbe8f0efd90fc6949
+  languageName: node
+  linkType: hard
+
+"conventional-commits-parser@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "conventional-commits-parser@npm:6.2.1"
+  dependencies:
+    meow: ^13.0.0
+  bin:
+    conventional-commits-parser: dist/cli/index.js
+  checksum: 9d0fe3a7800bb3c6f2f7582724841990b44a21e944de584ef811591330d3c0fe9a19ba488234dde896b7d1331fbf63b18f43dc64579bf0805aad28bed4ce879a
   languageName: node
   linkType: hard
 
@@ -5813,6 +5834,13 @@ __metadata:
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
   checksum: a2e8092dd86c8396bdba9f2b5481032848525b3dc295ce9b57896f931e63fc16f79805144321f72976383fc249584672a75cc18d6777c6b757603f372f745981
+  languageName: node
+  linkType: hard
+
+"picocolors@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "picocolors@npm:1.1.1"
+  checksum: e1cf46bf84886c79055fdfa9dcb3e4711ad259949e3565154b004b260cd356c5d54b31a1437ce9782624bf766272fe6b0154f5f0c744fb7af5d454d2b60db045
   languageName: node
   linkType: hard
 
