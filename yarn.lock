@@ -381,7 +381,7 @@ __metadata:
     release-it: ^19.0.4
     simple-git: ^3.36.0
     ts-node: ^10.9.2
-    typescript: ^5.8.2
+    typescript: ^6.0.3
   bin:
     djbe-shared-project-tools: bin/cli.js
     djbe-spt: bin/cli.js
@@ -7190,13 +7190,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.8.2":
-  version: 5.8.2
-  resolution: "typescript@npm:5.8.2"
+"typescript@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "typescript@npm:6.0.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 7f9e3d7ac15da6df713e439e785e51facd65d6450d5f51fab3e8d2f2e3f4eb317080d895480b8e305450cdbcb37e17383e8bf521e7395f8b556e2f2a4730ed86
+  checksum: c1182dfadf8a8cb22a4e32442715afef1af1b950ae635b1c52c27e0d7fb7a5e2607ed7c7c4079bba4163579250e02445fd8d46b09cbceda71ff72a5b7d69db61
   languageName: node
   linkType: hard
 
@@ -7210,13 +7210,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.8.2#~builtin<compat/typescript>":
-  version: 5.8.2
-  resolution: "typescript@patch:typescript@npm%3A5.8.2#~builtin<compat/typescript>::version=5.8.2&hash=5da071"
+"typescript@patch:typescript@^6.0.3#~builtin<compat/typescript>":
+  version: 6.0.3
+  resolution: "typescript@patch:typescript@npm%3A6.0.3#~builtin<compat/typescript>::version=6.0.3&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a58d19ff9811c1764a299dd83ca20ed8020f0ab642906dafc880121b710751227201531fdc99878158205c356ac79679b0b61ac5b42eda0e28bfb180947a258d
+  checksum: 8ed159a81ab4901a620c19fda539632cee610f8ec34dde57a3acc6b6df72894ad0b50bdd1946b763313d9b73dedb019d2e81c03eff06c0f2c785cde30a537d15
   languageName: node
   linkType: hard
 
