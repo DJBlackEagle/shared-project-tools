@@ -56,13 +56,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^20.5.0":
-  version: 20.5.0
-  resolution: "@commitlint/config-conventional@npm:20.5.0"
+"@commitlint/config-conventional@npm:^21.0.0":
+  version: 21.0.0
+  resolution: "@commitlint/config-conventional@npm:21.0.0"
   dependencies:
-    "@commitlint/types": ^20.5.0
+    "@commitlint/types": ^21.0.0
     conventional-changelog-conventionalcommits: ^9.2.0
-  checksum: 3096a88f4c41102a0ded5c73db3b35e697ee1f180e2566ffba362aac394edad5dea5f5d1bccd551688abf3a6aab5fb8e7627857911321606170214784ea43a8a
+  checksum: 4f4dbe00f4b5d46465f5a45b51ada6c5deffa5ab46ed9fc43a2eb5cf0a913fbd220c0be16af3b4c1e7c8a41b11b5ac9e7f90417260e278650d29142ea168e541
   languageName: node
   linkType: hard
 
@@ -308,6 +308,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/types@npm:^21.0.0":
+  version: 21.0.0
+  resolution: "@commitlint/types@npm:21.0.0"
+  dependencies:
+    conventional-commits-parser: ^6.3.0
+    picocolors: ^1.1.1
+  checksum: 7464bd3113fb2933a4e1df02c8594970a15206a00a0746a3b3253bd9225b5615fdf9d8c776e2e2c9919435495bd07bb11b415a3cb88eb04533f386182414dbdb
+  languageName: node
+  linkType: hard
+
 "@conventional-changelog/git-client@npm:^1.0.0":
   version: 1.0.1
   resolution: "@conventional-changelog/git-client@npm:1.0.1"
@@ -359,7 +369,7 @@ __metadata:
   resolution: "@djblackeagle/shared-project-tools@workspace:."
   dependencies:
     "@commitlint/cli": ^20.5.2
-    "@commitlint/config-conventional": ^20.5.0
+    "@commitlint/config-conventional": ^21.0.0
     "@commitlint/cz-commitlint": ^20.5.2
     "@release-it/conventional-changelog": ^11.0.0
     "@typescript-eslint/eslint-plugin": ^7.15.0
