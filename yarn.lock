@@ -376,7 +376,7 @@ __metadata:
     eslint-plugin-import: ^2.32.0
     eslint-plugin-prettier: ^5.5.5
     husky: ^9.1.7
-    nano-staged: ^0.8.0
+    nano-staged: ^1.0.2
     prettier: ^3.5.3
     release-it: ^20.0.1
     simple-git: ^3.36.0
@@ -5076,14 +5076,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nano-staged@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "nano-staged@npm:0.8.0"
-  dependencies:
-    picocolors: ^1.0.0
+"nano-staged@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "nano-staged@npm:1.0.2"
   bin:
     nano-staged: lib/bin.js
-  checksum: 01a6eee4053bd163e3084f34421fcb0f3ab90b5c47fa1ff7b4208f2a553b5e0a26e55a7f88c8af7632cfc2bcc3622d6078697bb0042409744bbb65565bb43334
+  checksum: b8a7f8750f850296a471a37dc29f5a82f50b87cc9ea2a6a38e874f6c0c0d64cf9db54f12da1abbf6f4d3789e30716ca16b693a25d63f78ae6394c67cb326605a
   languageName: node
   linkType: hard
 
@@ -5514,13 +5512,6 @@ __metadata:
   version: 2.1.0
   resolution: "perfect-debounce@npm:2.1.0"
   checksum: 266b989898e43ac2267ff52ece467e202b830852c294a3b2ff120da649f38808f191f748b58cd3ea576c91aed1db182b449c6c047b45e58423bb711c0861aac3
-  languageName: node
-  linkType: hard
-
-"picocolors@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "picocolors@npm:1.0.0"
-  checksum: a2e8092dd86c8396bdba9f2b5481032848525b3dc295ce9b57896f931e63fc16f79805144321f72976383fc249584672a75cc18d6777c6b757603f372f745981
   languageName: node
   linkType: hard
 
