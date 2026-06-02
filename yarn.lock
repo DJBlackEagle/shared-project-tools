@@ -361,7 +361,7 @@ __metadata:
     "@commitlint/cli": ^20.5.2
     "@commitlint/config-conventional": ^20.5.0
     "@commitlint/cz-commitlint": ^20.5.2
-    "@release-it/conventional-changelog": ^11.0.0
+    "@release-it/conventional-changelog": ^11.0.1
     "@typescript-eslint/eslint-plugin": ^7.15.0
     "@typescript-eslint/parser": ^7.14.1
     colors: ^1.4.0
@@ -948,9 +948,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@release-it/conventional-changelog@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "@release-it/conventional-changelog@npm:11.0.0"
+"@release-it/conventional-changelog@npm:^11.0.1":
+  version: 11.0.1
+  resolution: "@release-it/conventional-changelog@npm:11.0.1"
   dependencies:
     "@conventional-changelog/git-client": ^2.7.0
     concat-stream: ^2.0.0
@@ -961,7 +961,7 @@ __metadata:
     semver: ^7.7.4
   peerDependencies:
     release-it: ^18.0.0 || ^19.0.0 || ^20.0.0
-  checksum: 730f179b3eb5d20f1c8f851c1dffcbfcc323fb3073d3d1231965c0def86090b4ccb17d27a7498de013d99edeea32be95bfb0a971ee5f8571999ca3533fcb5fac
+  checksum: c64cb1f2dd6ab6dab72435b9ad5653f3f590ee47e82067481b2e92a82a009e431111750dda1104e34451fb413eb314969e2d969edaa985fc7c79b109c532ec87
   languageName: node
   linkType: hard
 
