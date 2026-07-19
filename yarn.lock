@@ -372,7 +372,7 @@ __metadata:
     husky: ^9.1.7
     nano-staged: ^1.0.2
     prettier: ^3.5.3
-    release-it: ^20.2.0
+    release-it: ^20.2.1
     simple-git: ^3.36.0
     ts-node: ^10.9.2
     typescript: ^6.0.3
@@ -5807,9 +5807,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^20.2.0":
-  version: 20.2.0
-  resolution: "release-it@npm:20.2.0"
+"release-it@npm:^20.2.1":
+  version: 20.2.1
+  resolution: "release-it@npm:20.2.1"
   dependencies:
     "@inquirer/prompts": 8.4.2
     "@octokit/rest": 22.0.1
@@ -5830,13 +5830,13 @@ __metadata:
     proxy-agent: 7.0.0
     semver: 7.7.4
     tinyglobby: 0.2.15
-    undici: 7.24.5
+    undici: 7.28.0
     url-join: 5.0.0
     wildcard-match: 5.1.4
     yargs-parser: 22.0.0
   bin:
     release-it: bin/release-it.js
-  checksum: 138aea80396941051a73ef5059889b0593fb970f0f5c42f8f3a1ee0422bf09fd0c586348e7d3de263c61ae9937bda2cbeb610dc151f06bc06ead62845a4807af
+  checksum: 2e61afa453fcb7c011d8d27e641e9ba7e26c88e515680ec9ee8d76d261fa4821ea906141e81aa31c06eb592abb71f48b1acf6f8b6786244fe7bb28af2ca0c109
   languageName: node
   linkType: hard
 
@@ -6972,10 +6972,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:7.24.5":
-  version: 7.24.5
-  resolution: "undici@npm:7.24.5"
-  checksum: dbe484459ea33032e73c38262594f58104d59224270259df3fdf61e8e97fa12f00356fdfa3c431c2936dc7869a48d44c12c4075f91041eb7306b22d2cf65eed8
+"undici@npm:7.28.0":
+  version: 7.28.0
+  resolution: "undici@npm:7.28.0"
+  checksum: 57c77c4ee75e166ef361ad238fcd88816fbc0d058aeadf4c0f689194bd17eb6d63ce25b89bd4f4d65a380ebbde784bf4886ec51acc9f8c826ecab01d8f63aaac
   languageName: node
   linkType: hard
 
