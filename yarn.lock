@@ -87,12 +87,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cz-commitlint@npm:^21.2.0":
-  version: 21.2.0
-  resolution: "@commitlint/cz-commitlint@npm:21.2.0"
+"@commitlint/cz-commitlint@npm:^21.2.2":
+  version: 21.2.2
+  resolution: "@commitlint/cz-commitlint@npm:21.2.2"
   dependencies:
     "@commitlint/ensure": ^21.2.0
-    "@commitlint/load": ^21.2.0
+    "@commitlint/load": ^21.2.2
     "@commitlint/types": ^21.2.0
     is-plain-obj: ^4.1.0
     picocolors: ^1.1.1
@@ -100,7 +100,7 @@ __metadata:
   peerDependencies:
     commitizen: ^4.0.3
     inquirer: ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0
-  checksum: e372754af5c467f862a9fbcaf77f0bae0b3a66ab574bb23305abeb87e41d7c9d426193ea5e79ae6461de9401a5b66c47e837f0b9fd824962eedaae3453ede60f
+  checksum: 262e7161da59f39703b7590526c11b3fcac939536ebe57eb819df4d76994621343d57587c25e8238c372df6941acce156f86a2c6b3c6c4017fa8f56faf2d0f24
   languageName: node
   linkType: hard
 
@@ -199,6 +199,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/load@npm:^21.2.2":
+  version: 21.2.2
+  resolution: "@commitlint/load@npm:21.2.2"
+  dependencies:
+    "@commitlint/config-validator": ^21.2.0
+    "@commitlint/execute-rule": ^21.0.1
+    "@commitlint/resolve-extends": ^21.2.2
+    "@commitlint/types": ^21.2.0
+    cosmiconfig: ^9.0.1
+    cosmiconfig-typescript-loader: ^6.1.0
+    es-toolkit: ^1.46.0
+    is-plain-obj: ^4.1.0
+    picocolors: ^1.1.1
+  checksum: dd4b775b42aa0d73bd48b347160457e7ead24e46eabea7a636e04f192fc821401612809dfca221745552ceb59cbc4a3a0c579f404b1850d0083261e41a3cd51c
+  languageName: node
+  linkType: hard
+
 "@commitlint/message@npm:^21.2.0":
   version: 21.2.0
   resolution: "@commitlint/message@npm:21.2.0"
@@ -253,6 +270,19 @@ __metadata:
     global-directory: ^5.0.0
     resolve-from: ^5.0.0
   checksum: a0b1575565a0f193e2d68377273b8175cc9d4d315e9564298df016e1e755b866496f826062f636d91436a03d8883585f4ef0b96d6089b05ca2b719bf4cea0596
+  languageName: node
+  linkType: hard
+
+"@commitlint/resolve-extends@npm:^21.2.2":
+  version: 21.2.2
+  resolution: "@commitlint/resolve-extends@npm:21.2.2"
+  dependencies:
+    "@commitlint/config-validator": ^21.2.0
+    "@commitlint/types": ^21.2.0
+    es-toolkit: ^1.46.0
+    global-directory: ^5.0.0
+    resolve-from: ^5.0.0
+  checksum: 2efa8f5506fa0cc64538e59392167465d71b44ac95cb9ade36f1d3387adf1a5bc40cd04f42e28252431ef9c2293d45681e58c5f489f02f6cc54384533306154a
   languageName: node
   linkType: hard
 
@@ -363,7 +393,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^21.2.1
     "@commitlint/config-conventional": ^21.2.0
-    "@commitlint/cz-commitlint": ^21.2.0
+    "@commitlint/cz-commitlint": ^21.2.2
     "@release-it/conventional-changelog": ^11.0.1
     "@typescript-eslint/eslint-plugin": ^7.15.0
     "@typescript-eslint/parser": ^7.14.1
