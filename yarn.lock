@@ -380,7 +380,7 @@ __metadata:
     eslint-plugin-prettier: ^5.5.6
     husky: ^9.1.7
     nano-staged: ^1.0.2
-    prettier: ^3.9.5
+    prettier: ^3.9.9
     release-it: ^20.2.1
     simple-git: ^3.36.0
     ts-node: ^10.9.2
@@ -5710,12 +5710,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.9.5":
-  version: 3.9.5
-  resolution: "prettier@npm:3.9.5"
+"prettier@npm:^3.9.9":
+  version: 3.9.9
+  resolution: "prettier@npm:3.9.9"
   bin:
     prettier: bin/prettier.cjs
-  checksum: a47508022818548392d02d8d7074c0af4440e1bcb288f912a29bcf82a863925b67a34e5ded63b0c09ede234811d1dc48f49d201633dd740d5e8ee1dd304d16e3
+  checksum: fbd41978e758c07ce493728c73c9011400446281aca707024e58f7b6ea5ad1dd2f12f8cc51ff76ceb7c7749947db876f6074030a5ec333d8e4084c29455ea948
   languageName: node
   linkType: hard
 
