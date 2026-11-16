@@ -82,14 +82,10 @@
     "simple-git": "^4.0.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.4",
-    "@commitlint/config-conventional": "^21.2.4",
-    "@commitlint/cz-commitlint": "^21.2.4",
     "@release-it/conventional-changelog": "^11.0.1",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.14.1",
-    "commitizen": "^4.3.2",
     "dotenv-cli": "^11.1.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
