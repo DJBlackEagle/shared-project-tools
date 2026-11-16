@@ -1,20 +1,45 @@
 # **Welcome to @djblackeagle/shared-project-tools**
 
+## ⚠️ Deprecation Notice
+
+This package is **deprecated** and is no longer being developed or maintained.
+
+* No new features or bug fixes will be added.
+* Existing issues and pull requests will not be reviewed.
+* For similar functionality, consider migrating to **[@djblackeagle/dev-config-js](https://www.npmjs.com/package/@djblackeagle/dev-config-js)**.
+
 # Contents
 
+- [**Welcome to @djblackeagle/shared-project-tools**](#welcome-to-djblackeagleshared-project-tools)
+  - [⚠️ Deprecation Notice](#️-deprecation-notice)
+- [Contents](#contents)
 - [What is @djblackeagle/shared-project-tools](#what-is-djblackeagleshared-project-tools)
 - [Benefits using this package?](#benefits-using-this-package)
 - [How to clone this repository](#how-to-clone-this-repository)
 - [Getting started](#getting-started)
   - [Using ESLint config](#using-eslint-config)
+    - [Requirements](#requirements)
+    - [Installing](#installing)
   - [Using Prettier config](#using-prettier-config)
+    - [Requirements](#requirements-1)
+    - [Installing](#installing-1)
   - [Using release-it config](#using-release-it-config)
+    - [Requirements](#requirements-2)
+    - [Installing](#installing-2)
   - [Using commitlint config](#using-commitlint-config)
+    - [Requirements](#requirements-3)
+    - [Installing](#installing-3)
   - [Using nano-staged config](#using-nano-staged-config)
+    - [Requirements](#requirements-4)
+    - [Installing](#installing-4)
   - [Using lint-staged config](#using-lint-staged-config)
+    - [Requirements](#requirements-5)
+    - [Installing](#installing-5)
 - [CLI commands](#cli-commands)
-  - [Commands](#commands)
-    - [git](#git)
+- [Commands](#commands)
+  - [help](#help)
+  - [git](#git)
+    - [git pruneGoneBranches](#git-prunegonebranches)
 
 # What is @djblackeagle/shared-project-tools
 
