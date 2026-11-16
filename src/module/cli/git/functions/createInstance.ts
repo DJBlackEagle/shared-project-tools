@@ -1,4 +1,4 @@
-import simpleGit, { SimpleGit, SimpleGitOptions } from 'simple-git';
+import { SimpleGit, SimpleGitOptions, simpleGit } from 'simple-git';
 
 /**
  * Create a instance of the SimpleGit class.
