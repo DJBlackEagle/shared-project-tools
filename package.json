@@ -78,7 +78,7 @@
   },
   "dependencies": {
     "colors": "^1.4.0",
-    "commander": "^15.0.0",
+    "commander": "^15.1.0",
     "simple-git": "^3.36.0"
   },
   "devDependencies": {
