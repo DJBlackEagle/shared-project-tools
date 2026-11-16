@@ -6,7 +6,7 @@ This package is **deprecated** and is no longer being developed or maintained.
 
 - No new features or bug fixes will be added.
 - Existing issues and pull requests will not be reviewed.
-- For similar functionality, consider migrating to **[@djblackeagle/dev-config-js](https://www.npmjs.com/package/@djblackeagle/dev-config-js)**.
+- For similar functionality, consider migrating to **[@djblackeagle/dev-config-js](https://github.com/DJBlackEagle/dev-code-js)**.
 
 # Contents
 
